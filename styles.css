@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: #f8f5f0;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #8B4513, #b87333);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+#banjo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banjo-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.banjo-card:hover {
+    transform: translateY(-5px);
+}
+
+.banjo-image {
+    width: 100%;
+    height: 220px;
+    background-color: #e9e3db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.banjo-info {
+    padding: 20px;
+}
+
+.banjo-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #5c3a21;
+}
+
+.banjo-year {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.banjo-desc {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.price-tag {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a7e3f;
+}
+
+.not-for-sale {
+    color: #888;
+    font-style: italic;
+}
+/* === PHOTO GALLERY STYLES === */
+.banjo-image-main {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.main-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail-row {
+    display: flex;
+    gap: 6px;
+    padding: 8px;
+    overflow-x: auto;
+    background: #f0ebe4;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+
+.thumbnail:hover {
+    border-color: #8B4513;
+}
+/* === SEARCH BAR STYLES === */
+#search-bar {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    outline: none;
+}
+
+#search-bar::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+#search-bar:focus {
+    background: rgba(255,255,255,0.3);
+}
+
+.banjo-card.hidden {
+    display: none !important;
+}

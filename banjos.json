@@ -1,0 +1,252 @@
+[
+    {
+    "name": "Unmarked Stratton 5-String Banjo",
+    "year": 1882,
+    "description": "Superb condition, plays great. Features an 11-inch pot. A wonderful vintage instrument with excellent character and tone.",
+    "price": null,
+    "forSale": false,
+    "images": [
+        "images/IMG-20260728-WA0002.jpg",
+        "images/IMG-20260728-WA0003.jpg",
+        "images/IMG-20260728-WA0004.jpg",
+        "images/IMG-20260728-WA0005.jpg",
+        "images/IMG-20260728-WA0006.jpg",
+        "images/IMG-20260728-WA0007.jpg",
+        "images/IMG-20260728-WA0008.jpg",
+        "images/IMG-20260728-WA0009.jpg",
+        "images/IMG-20260728-WA0010.jpg"
+    ]
+},
+    {
+        "name": "1928 Gibson TB-3 Mastertone",
+        "year": 1928,
+        "description": "Rare pre-war banjo, gold-plated hardware, original case included. Excellent condition.",
+        "price": 2850,
+        "forSale": true
+    },
+    {
+        "name": "1956 Vega Vegaphone",
+        "year": 1956,
+        "description": "Warm, rich tone. Fully restored and ready to play. Beautiful walnut neck.",
+        "price": 1650,
+        "forSale": true
+    },
+    {
+        "name": "1890s S.S. Stewart Special",
+        "year": 1895,
+        "description": "Museum piece. One of the finest banjos ever made. Not for sale — part of permanent collection.",
+        "price": null,
+        "forSale": false
+    },
+    {
+    "name": "R. J. Stratton Banjo",
+    "year": 1880,
+    "description": "Very rare banjo. The actual body was produced by Buckbee's. Wonderful banjo, the sound is absolutely superb. A beautiful banjo to play.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Barnes & Mullins — Pre-Lyratone Open Back",
+    "year": 1920,
+    "description": "5-string open back banjo, pre-Lyratone era. Typical heavy construction synonymous with J.G. Abbott. Fitted with a pickup and produces an incredible tone.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Barnes & Mullins — Early Zither Banjo",
+    "year": 1890,
+    "description": "Early Zither banjo around 1890. Features automatic mute controlled by a button on the rear of the pan — brings a platform up against the bridge for silent practice. Beautifully made and marked.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Barnes & Mullins — Pre-Sandringham Zither",
+    "year": 1910,
+    "description": "Zither banjo from around 1910. More or less scrap when acquired, but fully restored with great care. Now plays with volume and wonderful tone.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Clifford Essex — Popular No.1",
+    "year": 1920,
+    "description": "Lovely quality banjo. A fine example of Clifford Essex's entry-level but well-respected 'Popular' model range. Clean, clear tone and excellent playability.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Clifford Essex — Clipper",
+    "year": 1925,
+    "description": "The Clipper model from Clifford Essex. A beautiful instrument with great character and tone. Well made and a pleasure to play.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Clifford Essex — Essex Cammeyer 5-String",
+    "year": 1900,
+    "description": "Early 5-string banjo, probably an apprentice piece. Nice carved heel, mother-of-pearl inlays marking the frets and position markers. Marked 'X.V.' on the perch pole — a trade mark of Essex Cammeyer. Wonderful tone.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "J. E. Dallas — 5-String Banjo",
+    "year": 1885,
+    "description": "A 19th century banjo by one of London's finest makers. Another high-end five-string banjo which plays so beautifully. Has been used in recording work — just a real gem to play.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "John Alvey Turner — 12-Inch Head Banjo",
+    "year": 1910,
+    "description": "Another great quality banjo sold by the renowned London firm. The maker is unknown but it features a 12-inch head and is an absolute pleasure to play.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "W. Temlett — Zither Banjo",
+    "year": 1890,
+    "description": "Fine example by one of England's earliest and most important banjo makers. W. Temlett was making instruments in London from the mid-1800s. Beautifully made with the characteristic Temlett styling and tone.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Windsor — 5-String Banjo",
+    "year": 1925,
+    "description": "Made by A. O. Windsor of Birmingham. High-quality British banjo with the characteristic Windsor construction and tone. Wonderful playing instrument.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Ajax by W. Temlett",
+    "year": 1880,
+    "description": "A fine example of its type, crafted mainly from lovely rosewood. Truly a dream to play. Circa 1880.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "George P. Matthews — Fretless Banjo",
+    "year": 1880,
+    "description": "An early Matthews banjo, originally fretless with an 11-inch head and 30 clamps. Has a wonderful real antique sound.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "George P. Matthews — 12¼-Inch Head Banjo",
+    "year": 1885,
+    "description": "Features a large 12¼-inch head — superb for slide work. Beautiful tone and volume.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "J.C. Bertolle — 'B & T' Dexter Model",
+    "year": 1895,
+    "description": "A Dexter banjo made exclusively for J.C. Bertolle. Bears all the hallmarks of Richard Spencer craftsmanship. Three-piece neck with sculptured perch pole. Exquisite mother-of-pearl inlay with finest engraving even to the minutest detail. In 45 years of collecting, this is — in my opinion and many others — one of the finest English banjos ever made. The sound is outstanding, clear as a bell.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Leon Clerc — 5-String Banjo",
+    "year": 1890,
+    "description": "Made by Leon Eugene Clerc of London. Banjos and zither-banjos carried the names 'Athena', 'Crescent' and 'Marvel'. Beautifully crafted instrument from one of London's respected 19th century makers.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Jimmy Parslow Banjo",
+    "year": 1890,
+    "description": "A rare British banjo with a wonderfully sweet sound and plenty of volume. Beautifully restored and a welcome addition to the collection.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Crosby — F.C. Wilkes Banjo",
+    "year": 1900,
+    "description": "A fine example of a Crosby banjo retailed by F.C. Wilkes. Circa 1900. Joseph Crosby was a rare and highly regarded English banjo maker — examples rarely come on the market. Beautifully made and a treasured part of the collection.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "George Houghton — High-Grade 5-String",
+    "year": 1925,
+    "description": "A lovely banjo in every respect. Made by George Houghton of Birmingham, a respected British maker of the early 20th century. Fully refurbished and now a wonderful instrument to play.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "J.K. Simson Banjo",
+    "year": 1905,
+    "description": "A fine British banjo by J.K. Simson. Well-crafted instrument from one of England's respected makers. Clean tone and excellent build quality.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Joe Daniel's 5-String Banjo",
+    "year": 1915,
+    "description": "A British banjo bearing the name Joe Daniel's. Characterful instrument with plenty of volume and warmth. A fine example of British craftsmanship.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "John Grey & Sons Banjo",
+    "year": 1910,
+    "description": "Sold by the renowned London firm John Grey & Sons. Quality British banjo with excellent tone and construction.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Norton Greenopp Banjo",
+    "year": 1910,
+    "description": "A rare and interesting British banjo. Norton Greenopp instruments are distinctive and highly collectable.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Peerless 5-String Banjo",
+    "year": 1905,
+    "description": "British-made banjo under the 'Peerless' name. Excellent quality and playability — lives up to its name.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Lyon & Healy — British Market Model",
+    "year": 1900,
+    "description": "Fine banjo retailed or made for the British market by the famous firm of Lyon & Healy. High-quality instrument with exceptional tone.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "J.B. Schall Banjo",
+    "year": 1905,
+    "description": "A rare British banjo by J.B. Schall. Beautifully crafted and a wonderful addition to the collection.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Sears Banjo",
+    "year": 1920,
+    "description": "British-made banjo retailed under the Sears name. Solid, well-built instrument with good tone and playability.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "Thompson and O'Dell Banjo",
+    "year": 1910,
+    "description": "Fine banjo by the partnership of Thompson and O'Dell. Well-regarded British makers producing quality instruments.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "T. Bostock Banjo",
+    "year": 1895,
+    "description": "A rare 19th century British banjo by T. Bostock. Wonderful character and tone from this early maker.",
+    "price": null,
+    "forSale": false
+},
+{
+    "name": "T. Lyons Banjo",
+    "year": 1900,
+    "description": "Fine British banjo from the maker T. Lyons. Beautifully constructed with warm, clear tone.",
+    "price": null,
+    "forSale": false
+}
+
+]
