@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f1e9;
+    color: #333;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #8b4513;
+}
+
+header h1 {
+    color: #8b4513;
+    font-size: 1.8rem;
+}
+
+.banjo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.banjo-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.banjo-card:hover {
+    transform: translateY(-4px);
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.photo-gallery img:hover {
+    opacity: 0.9;
+}
+
+.banjo-card h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c5f2d;
+    margin: 8px 0;
+}
+
+.status-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.for-sale {
+    background: #d4edda;
+    color: #155724;
+}
+
+.sold {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.not-for-sale {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.description {
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .banjo-grid {
+        grid-template-columns: 1fr;
+    }
+}
