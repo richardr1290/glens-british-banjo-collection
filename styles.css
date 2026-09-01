@@ -1,180 +1,184 @@
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
     background: #f5f1e9;
-    color: #333;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px;
+    color: #2f2a25;
+    line-height: 1.6;
 }
 
+/* =========================
+   HEADER
+   ========================= */
+
 header {
+    background: linear-gradient(135deg, #6f3918, #a8642d);
+    color: white;
     text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #8b4513;
+    padding: 35px 20px;
 }
 
 header h1 {
-    color: #8b4513;
-    font-size: 1.8rem;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 24px;
+    background: white;
+    color: #5c3a21;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    background: #5c3a21;
+    color: white;
+}
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+
+main {
+    width: 100%;
+}
+
+.sales-section,
+.collection-section,
+.home-intro {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 45px 30px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-heading h2 {
+    color: #6f3918;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.section-heading p {
+    color: #666;
+    font-size: 17px;
+}
+
+/* =========================
+   BANJO GRID
+   ========================= */
 
 .banjo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
 
+/* =========================
+   BANJO CARDS
+   ========================= */
+
 .banjo-card {
     background: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .banjo-card:hover {
     transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
 }
 
-.photo-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    margin-bottom: 15px;
-}
+/* =========================
+   MAIN BANJO PHOTO
+   ========================= */
 
-.photo-gallery img {
+.banjo-image-main {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-}
-
-.photo-gallery img:hover {
-    opacity: 0.9;
-}
-
-.banjo-card h2 {
-    color: #8b4513;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-}
-
-.price {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #2c5f2d;
-    margin: 8px 0;
-}
-
-.status-tag {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    margin-bottom: 12px;
-}
-
-.for-sale {
-    background: #d4edda;
-    color: #155724;
-}
-
-.sold {
-    background: #fff3cd;
-    color: #856404;
-}
-
-.not-for-sale {
-    background: #f8d7da;
-    color: #721c24;
-}
-
-.description {
-    line-height: 1.5;
-    font-size: 0.95rem;
-}
-
-@media (max-width: 768px) {
-    .banjo-grid {
-        grid-template-columns: 1fr;
-    }
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, serif;
-}
-
-body {
-    background-color: #f8f5f0;
-    color: #2b2b2b;
-    line-height: 1.6;
-}
-
-header {
-    background: linear-gradient(135deg, #8B4513, #b87333);
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-header h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-
-#banjo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-    padding: 40px;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.banjo-card {
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    height: 300px;
     overflow: hidden;
-    transition: transform 0.3s;
+    background: #e9e3db;
+    cursor: zoom-in;
 }
 
-.banjo-card:hover {
-    transform: translateY(-5px);
-}
-
-.banjo-image {
+.main-photo {
     width: 100%;
-    height: 220px;
-    background-color: #e9e3db;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
 }
+
+.banjo-image-main:hover .main-photo {
+    transform: scale(1.02);
+}
+
+/* =========================
+   THUMBNAILS
+   ========================= */
+
+.thumbnail-row {
+    display: flex;
+    gap: 7px;
+    padding: 9px;
+    overflow-x: auto;
+    background: #f0ebe4;
+}
+
+.thumbnail {
+    width: 62px;
+    height: 62px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.thumbnail:hover {
+    border-color: #8b4513;
+    opacity: 0.85;
+}
+
+/* =========================
+   BANJO INFORMATION
+   ========================= */
 
 .banjo-info {
-    padding: 20px;
+    padding: 22px;
 }
 
 .banjo-name {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 8px;
     color: #5c3a21;
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 8px;
 }
 
 .banjo-year {
@@ -185,77 +189,2060 @@ header h1 {
 
 .banjo-desc {
     font-size: 15px;
+    line-height: 1.65;
     margin-bottom: 15px;
 }
 
+/* =========================
+   STATUS
+   ========================= */
+
+.status-tag {
+    display: inline-block;
+    padding: 5px 11px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.status-tag.for-sale {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-tag.sold {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* =========================
+   PRICE
+   ========================= */
+
 .price-tag {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: bold;
     color: #2a7e3f;
+    margin-top: 12px;
 }
 
-.not-for-sale {
-    color: #888;
-    font-style: italic;
+/* =========================
+   SOLD SECTION
+   ========================= */
+
+.sold-section {
+    border-top: 1px solid #d8d0c6;
+    margin-top: 20px;
 }
-/* === PHOTO GALLERY STYLES === */
-.banjo-image-main {
-    width: 100%;
-    height: 280px;
+
+.sold-card {
+    opacity: 0.88;
+}
+
+/* =========================
+   HOMEPAGE
+   ========================= */
+
+.home-intro {
+    max-width: 1000px;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.info-box {
+    background: #fff9e6;
+    border: 1px solid #f0e6c8;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.info-box h3 {
+    color: #6f3918;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.info-box p {
+    margin-bottom: 18px;
+}
+
+.contact-details {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* =========================
+   LIGHTBOX
+   ========================= */
+
+.image-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    z-index: 9999;
+    cursor: zoom-out;
+}
+
+.image-lightbox img {
+    max-width: 90%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 70px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    z-index: 10000;
+}
+
+.lightbox-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.lightbox-button.previous {
+    left: 25px;
+}
+
+.lightbox-button.next {
+    right: 25px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 36px;
+    line-height: 45px;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 28px 15px;
+    }
+
+    header h1 {
+        font-size: 29px;
+    }
+
+    .sales-section,
+    .collection-section,
+    .home-intro {
+        padding: 30px 15px;
+    }
+
+    .banjo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banjo-image-main {
+        height: 260px;
+    }
+
+    .section-heading h2 {
+        font-size: 27px;
+    }
+
+    .lightbox-button {
+        width: 45px;
+        height: 60px;
+        font-size: 32px;
+    }
+
+    .lightbox-button.previous {
+        left: 10px;
+    }
+
+    .lightbox-button.next {
+        right: 10px;
+    }
+
+    .lightbox-close {
+        top: 10px;
+        right: 10px;
+    }
+}
+/* =========================
+   HOMEPAGE
+   ========================= */
+
+.home-hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 55px 30px 35px;
+    text-align: center;
+}
+
+.home-hero h2 {
+    color: #6f3918;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.home-hero p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   HOMEPAGE LINK CARDS
+   ========================= */
+
+.home-links {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 30px 45px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.home-card {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #2f2a25;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+}
+
+.home-card-icon {
+    display: block;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.home-card h2 {
+    color: #6f3918;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.home-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home-card-button {
+    display: inline-block;
+    align-self: center;
+    margin-top: auto;
+    padding: 9px 18px;
+    background: #6f3918;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   HOMEPAGE INFORMATION
+   ========================= */
+
+.home-information {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px 55px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.home-information .info-box {
+    background: #fff9e6;
+    border: 1px solid #f0e6c8;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.home-information h3 {
+    color: #6f3918;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+
+.home-information p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.contact-details {
+    font-size: 16px;
+}
+
+
+/* =========================
+   HOMEPAGE MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .home-links {
+        grid-template-columns: 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-information {
+        grid-template-columns: 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-hero {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .home-hero h2 {
+        font-size: 28px;
+    }
+
+}
+/* =========================
+   CONTACT PAGE
+   ========================= */
+
+.contact-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 30px 70px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.contact-panel {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.contact-panel h3 {
+    color: #6f3918;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.contact-panel p {
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 800px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+/* =========================
+   FEATURED BANJO
+   ========================= */
+
+.featured-banjo {
+    max-width: 1100px;
+    margin: 10px auto 70px;
+
+    background: white;
+    border-radius: 12px;
     overflow: hidden;
-    background: #ddd;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.13);
 }
 
-.main-photo {
+.featured-image {
+    min-height: 360px;
+}
+
+.featured-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
-.thumbnail-row {
+.featured-content {
+    padding: 45px;
     display: flex;
-    gap: 6px;
-    padding: 8px;
-    overflow-x: auto;
-    background: #f0ebe4;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.thumbnail {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: 0.2s;
+.featured-label {
+    color: #8b4513;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
 }
 
-.thumbnail:hover {
-    border-color: #8B4513;
+.featured-content h2 {
+    color: #6f3918;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 18px;
 }
-/* === SEARCH BAR STYLES === */
-#search-bar {
-    margin-top: 20px;
-    padding: 12px 20px;
-    width: 100%;
-    max-width: 500px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    background: rgba(255,255,255,0.2);
+
+.featured-content p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.featured-button {
+    align-self: flex-start;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #6f3918;
     color: white;
-    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-#search-bar::placeholder {
-    color: rgba(255,255,255,0.7);
+.featured-button:hover {
+    background: #5c3a21;
 }
 
-#search-bar:focus {
-    background: rgba(255,255,255,0.3);
+
+/* =========================
+   FEATURED MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .featured-banjo {
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .featured-image {
+        min-height: 280px;
+    }
+
+    .featured-content {
+        padding: 30px;
+    }
+
+    .featured-content h2 {
+        font-size: 25px;
+    }
+
+}
+/* ==========================================================
+   COLLECTION PAGE
+   ========================================================== */
+
+.collection-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px 100px;
 }
 
-.banjo-card.hidden {
-    display: none !important;
->>>>>>> b8ff98979aac4ba695c018aee864e3a368d261bd
+
+/* ----------------------------------------------------------
+   COLLECTION HEADER
+   ---------------------------------------------------------- */
+
+.collection-header {
+  max-width: 850px;
+  margin: 0 auto 90px;
+  text-align: center;
+}
+
+.collection-eyebrow {
+  margin: 0 0 14px;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.collection-header h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  line-height: 1;
+}
+
+.collection-intro {
+  max-width: 650px;
+  margin: 28px auto 20px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.collection-statistics {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  opacity: 0.65;
+}
+
+
+/* ----------------------------------------------------------
+   MAKER
+   ---------------------------------------------------------- */
+
+.maker-section {
+  margin-bottom: 120px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.maker-header {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.maker-number {
+  margin: 0 0 12px;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.maker-header h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.maker-writeup {
+  max-width: 750px;
+  margin: 28px auto 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.maker-writeup p {
+  margin: 0;
+}
+
+.maker-writeup-pending {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.55;
+}
+
+
+/* ----------------------------------------------------------
+   MODELS
+   ---------------------------------------------------------- */
+
+.maker-models {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.collection-model {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/* ----------------------------------------------------------
+   MODEL HEADING
+   ---------------------------------------------------------- */
+
+.model-heading {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.model-number {
+  margin: 0 0 8px;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.model-heading h3 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
+  font-weight: 500;
+}
+
+.model-photo-count {
+  margin: 10px 0 0;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN IMAGE
+   ---------------------------------------------------------- */
+
+.collection-gallery {
+  width: 100%;
+}
+
+.collection-main-image {
+  width: 100%;
+  background: #f3f1ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.collection-main-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 720px;
+  object-fit: contain;
+}
+
+
+/* ----------------------------------------------------------
+   THUMBNAILS
+   ---------------------------------------------------------- */
+
+.collection-thumbnails {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  overflow-x: auto;
+  padding-bottom: 5px;
+}
+
+.collection-thumbnail-button {
+  flex: 0 0 82px;
+  width: 82px;
+  height: 68px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.collection-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.2s ease;
+}
+
+.collection-thumbnail-button:hover .collection-thumbnail {
+  opacity: 0.7;
+}
+
+
+/* ----------------------------------------------------------
+   NO PHOTO
+   ---------------------------------------------------------- */
+
+.collection-no-photo {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f3f1ed;
+  opacity: 0.6;
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   ---------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .collection-page {
+    padding: 40px 15px 70px;
+  }
+
+  .collection-header {
+    margin-bottom: 65px;
+  }
+
+  .maker-section {
+    margin-bottom: 80px;
+  }
+
+  .maker-header {
+    margin-bottom: 45px;
+  }
+
+  .maker-writeup {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .maker-models {
+    gap: 65px;
+  }
+
+  .collection-main-photo {
+    max-height: 500px;
+  }
+
+  .collection-thumbnail-button {
+    flex-basis: 70px;
+    width: 70px;
+    height: 58px;
+  }
+
+}
+/* ==========================================================
+   GLEN'S BANJO COLLECTION
+   MAKER PAGE
+   ========================================================== */
+
+.maker-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 35px 40px 80px;
+
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr) 270px;
+  gap: 45px;
+
+  background: #f8f6f1;
+}
+
+
+/* ----------------------------------------------------------
+   LEFT MAKER SIDEBAR
+   ---------------------------------------------------------- */
+
+.maker-sidebar {
+  align-self: start;
+  position: sticky;
+  top: 25px;
+
+  border: 1px solid #ddd6c8;
+  background: #fbfaf6;
+}
+
+.maker-sidebar-title {
+  padding: 25px 22px 20px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+
+  border-bottom: 1px solid #ddd6c8;
+}
+
+.maker-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+}
+
+.maker-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 9px;
+
+  color: #171c1b;
+  text-decoration: none;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+
+  border-bottom: 1px solid #e5dfd3;
+
+  background: transparent;
+}
+
+.maker-list a:hover {
+  background: #f1ede4;
+}
+
+.maker-list a.active {
+  background: #eee9df;
+  border-left: 4px solid #c8943e;
+  padding-left: 5px;
+}
+
+.maker-list a span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.maker-sidebar-info {
+  margin: 15px;
+  padding: 20px;
+
+  border: 1px solid #ddd6c8;
+  background: #f5f2e9;
+
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN MAKER CONTENT
+   ---------------------------------------------------------- */
+
+.maker-main {
+  min-width: 0;
+}
+
+.maker-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 30px;
+
+  font-size: 0.9rem;
+  color: #6c6b65;
+}
+
+.maker-breadcrumbs a {
+  color: #3e4542;
+  text-decoration: none;
+}
+
+.maker-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+
+/* ----------------------------------------------------------
+   MAKER INTRODUCTION
+   ---------------------------------------------------------- */
+
+.maker-introduction {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d8d0c1;
+}
+
+.maker-introduction h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 5vw, 4rem);
+  font-weight: 400;
+
+  color: #111918;
+}
+
+.gold-line {
+  width: 58px;
+  height: 3px;
+
+  margin: 17px 0 20px;
+
+  background: #c8943e;
+}
+
+.maker-writeup {
+  max-width: 850px;
+
+  font-size: 1.05rem;
+  line-height: 1.75;
+
+  color: #292d2c;
+}
+
+.maker-writeup.pending {
+  color: #77746c;
+  font-style: italic;
+}
+
+
+/* ----------------------------------------------------------
+   MODELS HEADING
+   ---------------------------------------------------------- */
+
+.models-section {
+  padding-top: 25px;
+}
+
+.models-section > h2 {
+  margin: 0 0 20px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+
+  color: #171c1b;
+}
+
+
+/* ----------------------------------------------------------
+   MODEL ROW
+   ---------------------------------------------------------- */
+
+.model-row {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(250px, 1fr);
+  gap: 30px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #d8d0c1;
+}
+
+
+/* ----------------------------------------------------------
+   MODEL IMAGE
+   ---------------------------------------------------------- */
+
+.model-image {
+  aspect-ratio: 16 / 9;
+
+  background: #e9e6df;
+
+  overflow: hidden;
+}
+
+.model-image img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.model-no-image {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #77746c;
+  font-style: italic;
+}
+
+
+/* ----------------------------------------------------------
+   MODEL INFORMATION
+   ---------------------------------------------------------- */
+
+.model-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-right: 15px;
+}
+
+.model-information h3 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+
+  color: #171c1b;
+}
+
+.gold-line.small {
+  width: 45px;
+  height: 2px;
+  margin: 13px 0 18px;
+}
+
+.model-photo-count {
+  margin: 10px 0 22px;
+
+  font-size: 0.95rem;
+  color: #454b48;
+}
+
+.camera-symbol {
+  margin-right: 8px;
+}
+
+
+/* ----------------------------------------------------------
+   VIEW MODEL BUTTON
+   ---------------------------------------------------------- */
+
+.view-model-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-width: 120px;
+
+  padding: 10px 15px;
+
+  border: 1px solid #b99555;
+
+  color: #282d2b;
+  background: transparent;
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+}
+
+.view-model-button:hover {
+  background: #f1ede4;
+}
+
+.view-model-button span {
+  margin-left: 20px;
+  font-size: 1.25rem;
+}
+
+
+/* ----------------------------------------------------------
+   BACK TO MAKERS
+   ---------------------------------------------------------- */
+
+.back-to-makers {
+  padding: 22px 0;
+
+  text-align: center;
+
+  border-bottom: 1px solid #d8d0c1;
+}
+
+.back-to-makers a {
+  color: #303633;
+  text-decoration: none;
+}
+
+.back-to-makers a:hover {
+  text-decoration: underline;
+}
+
+
+/* ----------------------------------------------------------
+   ABOUT PHOTOGRAPHS
+   ---------------------------------------------------------- */
+
+.photograph-information {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  margin-top: 25px;
+  padding: 20px;
+
+  border: 1px solid #b9b995;
+  background: #f5f4e9;
+}
+
+.photograph-icon {
+  font-size: 2rem;
+}
+
+.photograph-information h3 {
+  margin: 0 0 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.photograph-information p {
+  margin: 0;
+
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+
+/* ----------------------------------------------------------
+   RIGHT ABOUT MAKER PANEL
+   ---------------------------------------------------------- */
+
+.maker-about {
+  align-self: start;
+
+  margin-top: 275px;
+
+  padding: 25px;
+
+  border: 1px solid #ddd6c8;
+  background: #fbfaf6;
+}
+
+.maker-about h3 {
+  margin: 0 0 28px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+
+  letter-spacing: 0.05em;
+}
+
+.about-item {
+  display: flex;
+  gap: 14px;
+
+  margin-bottom: 25px;
+}
+
+.about-item strong {
+  width: 25px;
+
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  color: #8d733d;
+}
+
+.about-item span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  color: #77746c;
+}
+
+.about-item p {
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   ---------------------------------------------------------- */
+
+@media (max-width: 1050px) {
+
+  .maker-page {
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 30px;
+  }
+
+  .maker-about {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  .maker-page {
+    display: block;
+
+    padding: 25px 18px 60px;
+  }
+
+  .maker-sidebar {
+    position: static;
+
+    margin-bottom: 35px;
+  }
+
+  .maker-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .maker-list a {
+    border-right: 1px solid #e5dfd3;
+  }
+
+  .model-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .model-information {
+    padding: 0 5px 15px;
+  }
+
+}
+/* ==========================================================
+   MODEL PHOTOGRAPH GALLERY
+   ========================================================== */
+
+.model-gallery-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 45px 35px 80px;
+}
+
+
+/* ----------------------------------------------------------
+   HEADER
+   ---------------------------------------------------------- */
+
+.model-gallery-header {
+  max-width: 850px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.gallery-back {
+  color: #343a37;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.gallery-back:hover {
+  text-decoration: underline;
+}
+
+.gallery-maker {
+  margin: 30px 0 8px;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+
+  opacity: 0.6;
+}
+
+.model-gallery-header h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 400;
+}
+
+.model-gallery-header .gold-line {
+  margin: 15px auto;
+}
+
+.gallery-count {
+  margin: 0;
+
+  font-size: 0.9rem;
+  opacity: 0.65;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN PHOTO
+   ---------------------------------------------------------- */
+
+.photo-gallery {
+  width: 100%;
+}
+
+.gallery-main {
+  width: 100%;
+  height: min(650px, 65vh);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eeece6;
+
+  border: 1px solid #ddd6c8;
+
+  overflow: hidden;
+}
+
+.gallery-main-photo {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+
+/* ----------------------------------------------------------
+   THUMBNAILS
+   ---------------------------------------------------------- */
+
+.gallery-thumbnails {
+  display: flex;
+  gap: 9px;
+
+  margin-top: 14px;
+
+  overflow-x: auto;
+
+  padding-bottom: 8px;
+}
+
+.gallery-thumbnail {
+  flex: 0 0 90px;
+
+  width: 90px;
+  height: 70px;
+
+  padding: 0;
+
+  border: 2px solid transparent;
+
+  background: #eeeae1;
+
+  cursor: pointer;
+
+  overflow: hidden;
+}
+
+.gallery-thumbnail img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.gallery-thumbnail:hover {
+  opacity: 0.75;
+}
+
+.gallery-thumbnail.selected {
+  border-color: #c8943e;
+}
+
+
+/* ----------------------------------------------------------
+   POSITION
+   ---------------------------------------------------------- */
+
+.gallery-position {
+  margin: 15px 0 0;
+
+  text-align: center;
+
+  font-size: 0.85rem;
+
+  color: #66645e;
+}
+
+
+/* ----------------------------------------------------------
+   FOOTER
+   ---------------------------------------------------------- */
+
+.gallery-footer {
+  margin-top: 35px;
+
+  padding-top: 25px;
+
+  border-top: 1px solid #d8d0c1;
+
+  text-align: center;
+}
+
+
+/* ----------------------------------------------------------
+   NO PHOTO
+   ---------------------------------------------------------- */
+
+.gallery-no-photo {
+  padding: 100px 20px;
+
+  text-align: center;
+
+  background: #eeece6;
+
+  color: #77746c;
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   ---------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+  .model-gallery-page {
+    padding: 30px 15px 60px;
+  }
+
+  .gallery-main {
+    height: 55vh;
+  }
+
+  .gallery-thumbnail {
+    flex-basis: 72px;
+    width: 72px;
+    height: 58px;
+  }
+
+}
+/* ==========================================================
+   COLLECTION MAKER INDEX
+   ========================================================== */
+
+.collection-page {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 55px 40px 90px;
+}
+
+
+/* ----------------------------------------------------------
+   HEADER
+   ---------------------------------------------------------- */
+
+.collection-header {
+  max-width: 850px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.collection-eyebrow {
+  margin: 0 0 12px;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  color: #77746c;
+}
+
+.collection-header h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-weight: 400;
+
+  color: #171c1b;
+}
+
+.collection-intro {
+  max-width: 700px;
+  margin: 20px auto 18px;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+
+  color: #454945;
+}
+
+.collection-statistics {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  font-size: 0.9rem;
+
+  color: #77746c;
+}
+
+
+/* ----------------------------------------------------------
+   MAKER GRID
+   ---------------------------------------------------------- */
+
+.makers-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+
+/* ----------------------------------------------------------
+   MAKER CARD
+   ---------------------------------------------------------- */
+
+.maker-card {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 145px;
+
+  padding: 25px 28px;
+
+  border: 1px solid #ddd6c8;
+
+  background: #fbfaf6;
+
+  color: #171c1b;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.maker-card:hover {
+  transform: translateY(-2px);
+
+  background: #f3efe6;
+
+  border-color: #c8943e;
+}
+
+.maker-card-content {
+  min-width: 0;
+}
+
+.maker-card-number {
+  margin: 0 0 12px;
+
+  font-size: 0.7rem;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+
+  color: #8a867d;
+}
+
+.maker-card h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  font-weight: 400;
+
+  line-height: 1.25;
+}
+
+.maker-card-models {
+  margin: 12px 0 0;
+
+  font-size: 0.85rem;
+
+  color: #77746c;
+}
+
+.maker-card-arrow {
+  flex-shrink: 0;
+
+  margin-left: 15px;
+
+  font-size: 1.5rem;
+
+  color: #9b793d;
+maker in}
+
+
+/* ----------------------------------------------------------
+   COLLECTION INFORMATION
+   ---------------------------------------------------------- */
+
+.collection-information {
+  max-width: 900px;
+
+  margin: 55px auto 0;
+  padding: 28px 32px;
+
+  border: 1px solid #d8d0c1;
+
+  background: #f5f2e9;
+}
+
+.collection-information h2 {
+  margin: 0 0 10px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.collection-information p {
+  margin: 0;
+
+  line-height: 1.7;
+  color: #454945;
+}
+
+
+/* ----------------------------------------------------------
+   TABLET
+   ---------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+  .makers-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   ---------------------------------------------------------- */
+
+@media (max-width: 600px) {
+
+  .collection-page {
+    padding: 35px 18px 60px;
+  }
+
+  .makers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .collection-statistics {
+    flex-wrap: wrap;
+  }
+
+}
+/* ==========================================================
+   MAKER PAGE — CATALOGUE STYLE
+   ========================================================== */
+
+.maker-header {
+  max-width: 850px;
+  margin: 0 auto 32px;
+  text-align: center;
+
+  background: #f7f4ed;
+  border: 1px solid #ddd6c8;
+  padding: 42px 35px 38px;
+}
+
+.maker-header h1,
+.maker-header h2 {
+  color: #171c1b;
+}
+
+.maker-writeup {
+  max-width: 850px;
+  margin-top: 25px;
+
+  color: #343936;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-style: normal;
+}
+
+.maker-writeup p {
+  margin: 0 0 18px;
+}
+
+.maker-writeup p:last-child {
+  margin-bottom: 0;
+}
+
+.maker-writeup-pending {
+  color: #77746c;
+  font-style: italic;
+}
+
+.maker-header .gold-line {
+  margin-top: 18px;
+}
+/* ==========================================================
+   COLLECTION INDEX — CATALOGUE STYLE
+   ========================================================== */
+
+.collection-index {
+  min-height: 70vh;
+
+  padding: 55px 35px 90px;
+
+  background: #f8f6f1;
+}
+
+.collection-index-inner {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+
+/* ----------------------------------------------------------
+   HEADER
+   ---------------------------------------------------------- */
+
+.collection-index-header {
+  max-width: 850px;
+
+  margin: 0 auto 45px;
+
+  text-align: center;
+}
+
+.collection-index-header .collection-eyebrow {
+  margin: 0 0 12px;
+
+  font-size: 0.72rem;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  color: #77746c;
+}
+
+.collection-index-header h1 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(2.8rem, 5vw, 4rem);
+
+  font-weight: 400;
+
+  color: #171c1b;
+}
+
+.collection-index-header .gold-line {
+  width: 55px;
+  height: 3px;
+
+  margin: 18px auto;
+}
+
+.collection-index-intro {
+  max-width: 700px;
+
+  margin: 0 auto 18px;
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  color: #454945;
+}
+
+.collection-statistics {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 11px;
+
+  font-size: 0.88rem;
+
+  color: #77746c;
+}
+
+
+/* ----------------------------------------------------------
+   TWO COLUMN CATALOGUE
+   ---------------------------------------------------------- */
+
+.collection-index-layout {
+  display: grid;
+
+  grid-template-columns: 300px minmax(0, 1fr);
+
+  gap: 35px;
+
+  align-items: start;
+}
+
+
+/* ----------------------------------------------------------
+   MAKER LIST
+   ---------------------------------------------------------- */
+
+.collection-maker-list {
+  background: #fbfaf6;
+
+  border: 1px solid #ddd6c8;
+}
+
+.collection-maker-list-heading {
+  padding: 22px 22px 18px;
+
+  border-bottom: 1px solid #ddd6c8;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 1rem;
+
+  letter-spacing: 0.08em;
+
+  color: #252a28;
+}
+
+.collection-maker-list nav {
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 8px 14px;
+}
+
+.collection-maker-list nav a {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 11px 8px;
+
+  border-bottom: 1px solid #e7e1d7;
+
+  color: #252a28;
+
+  text-decoration: none;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 0.96rem;
+}
+
+.collection-maker-list nav a:last-child {
+  border-bottom: none;
+}
+
+.collection-maker-list nav a:hover {
+  background: #f1ede4;
+}
+
+.collection-maker-arrow {
+  flex-shrink: 0;
+
+  font-size: 1.35rem;
+
+  color: #9b793d;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN INTRODUCTION
+   ---------------------------------------------------------- */
+
+.collection-index-main {
+  min-width: 0;
+}
+
+.collection-index-card {
+  padding: 42px 45px;
+
+  background: #fbfaf6;
+
+  border: 1px solid #ddd6c8;
+}
+
+.collection-card-label {
+  margin: 0 0 14px;
+
+  font-size: 0.72rem;
+
+  letter-spacing: 0.14em;
+
+  text-transform: uppercase;
+
+  color: #77746c;
+}
+
+.collection-index-card h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  font-weight: 400;
+
+  line-height: 1.2;
+
+  color: #171c1b;
+}
+
+.collection-index-card .gold-line.small {
+  width: 45px;
+  height: 2px;
+
+  margin: 18px 0 25px;
+}
+
+.collection-index-card p {
+  max-width: 750px;
+
+  margin: 0 0 20px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 1rem;
+
+  line-height: 1.8;
+
+  color: #343936;
+}
+
+.collection-index-card p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ----------------------------------------------------------
+   BROWSE NOTE
+   ---------------------------------------------------------- */
+
+.collection-index-note {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+
+  margin-top: 20px;
+
+  padding: 20px 24px;
+
+  border: 1px solid #d8d0c1;
+
+  background: #f5f2e9;
+}
+
+.collection-index-note strong {
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-weight: 400;
+
+  font-size: 1.05rem;
+}
+
+.collection-index-note span {
+  font-size: 0.88rem;
+
+  color: #77746c;
+}
+
+
+/* ----------------------------------------------------------
+   TABLET
+   ---------------------------------------------------------- */
+
+@media (max-width: 850px) {
+
+  .collection-index-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+
+    gap: 22px;
+  }
+
+  .collection-index-card {
+    padding: 32px;
+  }
+
+}
+
+
+/* ----------------------------------------------------------
+   MOBILE
+   ---------------------------------------------------------- */
+
+@media (max-width: 650px) {
+
+  .collection-index {
+    padding: 35px 18px 60px;
+  }
+
+  .collection-index-layout {
+    display: block;
+  }
+
+  .collection-maker-list {
+    margin-bottom: 25px;
+  }
+
+  .collection-maker-list nav {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .collection-maker-list nav a {
+    border-right: 1px solid #e7e1d7;
+  }
+
+  .collection-index-card {
+    padding: 28px 24px;
+  }
+
+  .collection-statistics {
+    flex-wrap: wrap;
+  }
+
 }

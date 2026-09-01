@@ -1,156 +1,118 @@
-<<<<<<< HEAD
-// Store ALL banjos here so search can access them
-let allBanjos = [];
+document.addEventListener("DOMContentLoaded", function () {
 
-// Load and display all banjos
-fetch('banjos.json')
-    .then(response => response.json())
-    .then(banjos => {
-        allBanjos = banjos;
-        renderBanjos(banjos);
-    });
+    document.querySelectorAll(".banjo-card").forEach(function (card) {
 
-// Draw banjo cards on the page
-function renderBanjos(banjos) {
-    const grid = document.getElementById('banjo-grid');
-    grid.innerHTML = '';
+        const mainImage = card.querySelector(".main-photo");
+        const thumbnails = Array.from(card.querySelectorAll(".thumbnail"));
 
-    banjos.forEach(banjo => {
-        const card = document.createElement('div');
-        card.className = 'banjo-card';
+        if (!mainImage || thumbnails.length === 0) return;
 
-        // Build image gallery if photos exist
-        let imageSection = '';
-        if (banjo.images && banjo.images.length > 0) {
-            imageSection = `
-                <div class="banjo-image-main">
-                    <img src="${banjo.images[0]}" alt="${banjo.name}" class="main-photo">
-                </div>
-                <div class="thumbnail-row">
-                    ${banjo.images.map((img, index) => `
-                        <img src="${img}" class="thumbnail" onclick="changePhoto('${img}')" alt="Photo ${index+1}">
-                    `).join('')}
-                </div>
-            `;
-        } else {
-            imageSection = `<div class="banjo-image">🎵</div>`;
-        }
+        let currentIndex = 0;
 
-        card.innerHTML = `
-            ${imageSection}
-            <div class="banjo-info">
-                <div class="banjo-name">${banjo.name}</div>
-                <div class="banjo-year">Made: ${banjo.year}</div>
-                <div class="banjo-desc">${banjo.description}</div>
-                ${banjo.forSale 
-                    ? `<div class="price-tag">£${banjo.price}</div>`
-                    : `<div class="not-for-sale">📖 Permanent Collection</div>`
-                }
-            </div>
-        `;
+        // Thumbnail → main image
+        thumbnails.forEach(function (thumbnail, index) {
 
-        grid.appendChild(card);
-    });
-}
+            thumbnail.addEventListener("click", function () {
+                currentIndex = index;
+                mainImage.src = thumbnail.src;
+            });
 
-// Search function — filters as you type!
-document.addEventListener('input', function(e) {
-    if (e.target.id === 'search-bar') {
-        const query = e.target.value.toLowerCase().trim();
-
-        const filtered = allBanjos.filter(banjo => {
-            return (
-                banjo.name.toLowerCase().includes(query) ||
-                String(banjo.year).includes(query) ||
-                banjo.description.toLowerCase().includes(query)
-            );
         });
 
-        renderBanjos(filtered);
-    }
+        // Main image → lightbox
+        mainImage.addEventListener("click", function () {
+
+            const lightbox = document.createElement("div");
+            lightbox.className = "image-lightbox";
+
+            const largeImage = document.createElement("img");
+            largeImage.src = thumbnails[currentIndex].src;
+            largeImage.alt = mainImage.alt;
+
+            // Close button
+const closeButton = document.createElement("button");
+closeButton.className = "lightbox-close";
+closeButton.innerHTML = "&times;";
+closeButton.setAttribute("aria-label", "Close image");
+
+            // Previous button
+            const previousButton = document.createElement("button");
+            previousButton.className = "lightbox-button previous";
+            previousButton.innerHTML = "&#10094;";
+
+            // Next button
+            const nextButton = document.createElement("button");
+            nextButton.className = "lightbox-button next";
+            nextButton.innerHTML = "&#10095;";
+
+            closeButton.addEventListener("click", function (event) {
+    event.stopPropagation();
+    lightbox.remove();
+    document.removeEventListener("keydown", keyboardControl);
 });
 
-// Swap main photo when clicking thumbnail
-function changePhoto(src) {
-    document.querySelectorAll('.main-photo').forEach(mainImg => {
-        mainImg.src = src;
-    });
-=======
-// Store ALL banjos here so search can access them
-let allBanjos = [];
+            lightbox.appendChild(largeImage);
+lightbox.appendChild(closeButton);
+lightbox.appendChild(previousButton);
+lightbox.appendChild(nextButton);
 
-// Load and display all banjos
-fetch('banjos.json')
-    .then(response => response.json())
-    .then(banjos => {
-        allBanjos = banjos;
-        renderBanjos(banjos);
-    });
+            document.body.appendChild(lightbox);
 
-// Draw banjo cards on the page
-function renderBanjos(banjos) {
-    const grid = document.getElementById('banjo-grid');
-    grid.innerHTML = '';
+            function showImage(index) {
+                currentIndex =
+                    (index + thumbnails.length) % thumbnails.length;
 
-    banjos.forEach(banjo => {
-        const card = document.createElement('div');
-        card.className = 'banjo-card';
+                largeImage.src = thumbnails[currentIndex].src;
+            }
 
-        // Build image gallery if photos exist
-        let imageSection = '';
-        if (banjo.images && banjo.images.length > 0) {
-            imageSection = `
-                <div class="banjo-image-main">
-                    <img src="${banjo.images[0]}" alt="${banjo.name}" class="main-photo">
-                </div>
-                <div class="thumbnail-row">
-                    ${banjo.images.map((img, index) => `
-                        <img src="${img}" class="thumbnail" onclick="changePhoto('${img}')" alt="Photo ${index+1}">
-                    `).join('')}
-                </div>
-            `;
-        } else {
-            imageSection = `<div class="banjo-image">🎵</div>`;
-        }
+            previousButton.addEventListener("click", function (event) {
+                event.stopPropagation();
+                showImage(currentIndex - 1);
+            });
 
-        card.innerHTML = `
-            ${imageSection}
-            <div class="banjo-info">
-                <div class="banjo-name">${banjo.name}</div>
-                <div class="banjo-year">Made: ${banjo.year}</div>
-                <div class="banjo-desc">${banjo.description}</div>
-                ${banjo.forSale 
-                    ? `<div class="price-tag">£${banjo.price}</div>`
-                    : `<div class="not-for-sale">📖 Permanent Collection</div>`
+            nextButton.addEventListener("click", function (event) {
+                event.stopPropagation();
+                showImage(currentIndex + 1);
+            });
+
+            // Keyboard controls
+            function keyboardControl(event) {
+
+                if (event.key === "ArrowLeft") {
+                    showImage(currentIndex - 1);
                 }
-            </div>
-        `;
 
-        grid.appendChild(card);
-    });
-}
+                if (event.key === "ArrowRight") {
+                    showImage(currentIndex + 1);
+                }
 
-// Search function — filters as you type!
-document.addEventListener('input', function(e) {
-    if (e.target.id === 'search-bar') {
-        const query = e.target.value.toLowerCase().trim();
+                if (event.key === "Escape") {
+                    lightbox.remove();
+                    document.removeEventListener(
+                        "keydown",
+                        keyboardControl
+                    );
+                }
+            }
 
-        const filtered = allBanjos.filter(banjo => {
-            return (
-                banjo.name.toLowerCase().includes(query) ||
-                String(banjo.year).includes(query) ||
-                banjo.description.toLowerCase().includes(query)
-            );
+            document.addEventListener("keydown", keyboardControl);
+
+            // Clicking the dark background closes the lightbox
+            lightbox.addEventListener("click", function (event) {
+
+                if (event.target === lightbox) {
+                    lightbox.remove();
+
+                    document.removeEventListener(
+                        "keydown",
+                        keyboardControl
+                    );
+                }
+
+            });
+
         });
 
-        renderBanjos(filtered);
-    }
-});
-
-// Swap main photo when clicking thumbnail
-function changePhoto(src) {
-    document.querySelectorAll('.main-photo').forEach(mainImg => {
-        mainImg.src = src;
     });
->>>>>>> b8ff98979aac4ba695c018aee864e3a368d261bd
-}
+
+});

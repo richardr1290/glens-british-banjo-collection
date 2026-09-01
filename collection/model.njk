@@ -1,0 +1,170 @@
+---
+layout: base
+
+pagination:
+  data: collectionMaster.models
+  size: 1
+  alias: model
+
+permalink: "collection/{{ model.makerSlug }}/{{ model.slug }}/index.html"
+
+title: "{{ model.title }}"
+---
+
+<section class="model-gallery-page">
+
+  <div class="model-gallery-header">
+
+    <a
+      href="/collection/{{ model.makerSlug }}/"
+      class="gallery-back"
+    >
+      ← Back to {{ model.maker }}
+    </a>
+
+    <p class="gallery-maker">
+      {{ model.maker }}
+    </p>
+
+    <h1>
+      {{ model.title }}
+    </h1>
+
+    <div class="gold-line"></div>
+
+    <p class="gallery-count">
+      {{ model.photoCount }}
+      {% if model.photoCount == 1 %}
+        photograph
+      {% else %}
+        photographs
+      {% endif %}
+    </p>
+
+  </div>
+
+
+  {% if model.photos and model.photos.length > 0 %}
+
+    <div
+      class="photo-gallery"
+      id="gallery-{{ model.id }}"
+    >
+
+      <!-- MAIN PHOTOGRAPH -->
+
+      <div class="gallery-main">
+
+        <img
+          src="/banjos/{{ model.photos[0] }}"
+          alt="{{ model.maker }} — {{ model.title }}"
+          class="gallery-main-photo"
+        >
+
+      </div>
+
+
+      <!-- THUMBNAILS -->
+
+      {% if model.photos.length > 1 %}
+
+        <div class="gallery-thumbnails">
+
+          {% for image in model.photos %}
+
+            <button
+              type="button"
+              class="gallery-thumbnail {% if loop.first %}selected{% endif %}"
+              data-image="/banjos/{{ image }}"
+              aria-label="View photograph {{ loop.index }}"
+            >
+
+              <img
+                src="/banjos/{{ image }}"
+                alt=""
+                loading="lazy"
+              >
+
+            </button>
+
+          {% endfor %}
+
+        </div>
+
+      {% endif %}
+
+
+      <p class="gallery-position">
+        Photograph <span class="current-photo">1</span>
+        of {{ model.photoCount }}
+      </p>
+
+    </div>
+
+  {% else %}
+
+    <div class="gallery-no-photo">
+      No photographs available.
+    </div>
+
+  {% endif %}
+
+
+  <div class="gallery-footer">
+
+    <a
+      href="/collection/{{ model.makerSlug }}/"
+      class="gallery-back"
+    >
+      ← Back to {{ model.maker }}
+    </a>
+
+  </div>
+
+</section>
+
+
+<script>
+
+document.querySelectorAll(".photo-gallery").forEach(function(gallery) {
+
+  const mainPhoto =
+    gallery.querySelector(".gallery-main-photo");
+
+  const thumbnails =
+    gallery.querySelectorAll(".gallery-thumbnail");
+
+  const currentPhoto =
+    gallery.querySelector(".current-photo");
+
+
+  thumbnails.forEach(function(button, index) {
+
+    button.addEventListener("click", function() {
+
+      mainPhoto.src =
+        button.dataset.image;
+
+      thumbnails.forEach(function(item) {
+
+        item.classList.remove("selected");
+
+      });
+
+      button.classList.add("selected");
+
+
+      if (currentPhoto) {
+
+        currentPhoto.textContent =
+          index + 1;
+
+      }
+
+    });
+
+  });
+
+});
+
+</script>

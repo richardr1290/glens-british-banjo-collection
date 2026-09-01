@@ -1,0 +1,135 @@
+---
+layout: base
+title: The Collection
+---
+
+<section class="collection-index">
+
+  <div class="collection-index-inner">
+
+    <header class="collection-index-header">
+
+      <p class="collection-eyebrow">
+        GLEN'S BRITISH BANJO COLLECTION
+      </p>
+
+      <h1>The Collection</h1>
+
+      <div class="gold-line"></div>
+
+      <p class="collection-index-intro">
+        Explore the collection by maker. Each maker has its own catalogue
+        page, with individual instruments and their photographs presented
+        separately.
+      </p>
+
+      <div class="collection-statistics">
+
+        <span>
+          {{ collectionMaster.summary.makers }} makers
+        </span>
+
+        <span>·</span>
+
+        <span>
+          {{ collectionMaster.summary.models }} instruments
+        </span>
+
+        <span>·</span>
+
+        <span>
+          {{ collectionMaster.summary.photographs }} photographs
+        </span>
+
+      </div>
+
+    </header>
+
+
+    <div class="collection-index-layout">
+
+
+      <!-- MAKER LIST -->
+
+      <aside class="collection-maker-list">
+
+        <div class="collection-maker-list-heading">
+          <span>MAKERS</span>
+        </div>
+
+        <nav>
+
+          {% for maker in collectionMaster.makers %}
+
+            <a
+              href="/collection/{{ maker.slug }}/"
+            >
+
+              <span>
+                {{ maker.name }}
+              </span>
+
+              <span class="collection-maker-arrow">
+                ›
+              </span>
+
+            </a>
+
+          {% endfor %}
+
+        </nav>
+
+      </aside>
+
+
+      <!-- COLLECTION INTRODUCTION -->
+
+      <main class="collection-index-main">
+
+        <div class="collection-index-card">
+
+          <p class="collection-card-label">
+            THE COLLECTION
+          </p>
+
+          <h2>
+            A catalogue of makers and instruments
+          </h2>
+
+          <div class="gold-line small"></div>
+
+          <p>
+            The collection brings together banjos from a wide range of
+            makers and periods. Select a maker from the list to explore
+            the instruments held in the collection.
+          </p>
+
+          <p>
+            Each maker page contains the available maker information,
+            followed by the individual instruments attributed to that
+            maker. Photographs are kept with their respective instrument
+            so that each example can be viewed independently.
+          </p>
+
+        </div>
+
+
+        <div class="collection-index-note">
+
+          <strong>
+            Browse the collection
+          </strong>
+
+          <span>
+            Select any maker from the list to begin.
+          </span>
+
+        </div>
+
+      </main>
+
+    </div>
+
+  </div>
+
+</section>

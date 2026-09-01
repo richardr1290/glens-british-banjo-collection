@@ -1,0 +1,344 @@
+---
+layout: base
+
+pagination:
+  data: collectionMaster.makers
+  size: 1
+  alias: maker
+
+permalink: "collection/{{ maker.slug }}/index.html"
+
+title: "{{ maker.name }}"
+---
+
+<div class="maker-page">
+
+  <!-- ======================================================
+       LEFT SIDEBAR
+       ====================================================== -->
+
+  <aside class="maker-sidebar">
+
+    <div class="maker-sidebar-title">
+      MAKERS
+    </div>
+
+    <nav class="maker-list">
+
+      {% for item in collectionMaster.makers %}
+
+        <a
+          href="/collection/{{ item.slug }}/"
+          class="{% if item.name == maker.name %}active{% endif %}"
+        >
+
+          {{ item.name }}
+
+          {% if item.name == maker.name %}
+            <span>›</span>
+          {% endif %}
+
+        </a>
+
+      {% endfor %}
+
+    </nav>
+
+    <div class="maker-sidebar-info">
+
+      <p>
+        This collection features historic banjos
+        from the late 1800s to the early 1900s,
+        with documents and photographs.
+      </p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- ======================================================
+       MAIN CONTENT
+       ====================================================== -->
+
+  <main class="maker-main">
+
+
+    <!-- BREADCRUMBS -->
+
+    <div class="maker-breadcrumbs">
+
+      <a href="/">
+        Home
+      </a>
+
+      <span>›</span>
+
+      <a href="/collection/">
+        Makers
+      </a>
+
+      <span>›</span>
+
+      <span>
+        {{ maker.name }}
+      </span>
+
+    </div>
+
+
+    <!-- ====================================================
+         MAKER INTRODUCTION
+         ==================================================== -->
+
+    <header class="maker-introduction">
+
+      <h1>
+        {{ maker.name }}
+      </h1>
+
+      <div class="gold-line"></div>
+
+
+      {% if makerWriteups[maker.name] %}
+
+        <div class="maker-writeup">
+
+          {% for paragraph in makerWriteups[maker.name].split("\n\n") %}
+
+            <p>
+              {{ paragraph }}
+            </p>
+
+          {% endfor %}
+
+        </div>
+
+      {% else %}
+
+        <div class="maker-writeup pending">
+
+          <p>
+            Maker information to be added.
+          </p>
+
+        </div>
+
+      {% endif %}
+
+    </header>
+
+
+    <!-- ====================================================
+         MODELS
+         ==================================================== -->
+
+    <section class="models-section">
+
+      <h2>
+        Models
+      </h2>
+
+
+      {% for model in maker.models %}
+
+        <article class="model-row">
+
+
+          <!-- MODEL IMAGE -->
+
+          <div class="model-image">
+
+            {% if model.photos and model.photos.length > 0 %}
+
+              <img
+                src="/banjos/{{ model.photos[0] }}"
+                alt="{{ maker.name }} — {{ model.title }}"
+                loading="lazy"
+              >
+
+            {% else %}
+
+              <div class="model-no-image">
+                No photograph
+              </div>
+
+            {% endif %}
+
+          </div>
+
+
+          <!-- MODEL INFORMATION -->
+
+          <div class="model-information">
+
+            <h3>
+              {{ model.title }}
+            </h3>
+
+            <div class="gold-line small"></div>
+
+
+            <p class="model-photo-count">
+
+              <span class="camera-symbol">▣</span>
+
+              {{ model.photoCount }}
+
+              {% if model.photoCount == 1 %}
+                photograph
+              {% else %}
+                photographs
+              {% endif %}
+
+            </p>
+
+
+            <a
+              class="view-model-button"
+              href="/collection/{{ maker.slug }}/{{ model.slug }}/"
+            >
+
+              View model
+
+              <span>›</span>
+
+            </a>
+
+          </div>
+
+
+        </article>
+
+      {% endfor %}
+
+    </section>
+
+
+    <!-- ====================================================
+         BACK TO MAKERS
+         ==================================================== -->
+
+    <div class="back-to-makers">
+
+      <a href="/collection/">
+
+        ‹
+        Back to all makers
+
+      </a>
+
+    </div>
+
+
+    <!-- ====================================================
+         PHOTOGRAPH INFORMATION
+         ==================================================== -->
+
+    <section class="photograph-information">
+
+      <div class="photograph-icon">
+        ▣
+      </div>
+
+      <div>
+
+        <h3>
+          About the photographs
+        </h3>
+
+        <p>
+          Click on any model to view its full set of
+          photographs in a gallery. Images show the
+          overall instrument, details, headstock, inlays,
+          hardware and any markings.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ======================================================
+       ABOUT THIS MAKER
+       ====================================================== -->
+
+  <aside class="maker-about">
+
+    <h3>
+      ABOUT THIS MAKER
+    </h3>
+
+
+    <div class="about-item">
+
+      <strong>◫</strong>
+
+      <div>
+
+        <span>Collection</span>
+
+        <p>
+          {{ maker.models.length }}
+
+          {% if maker.models.length == 1 %}
+            model
+          {% else %}
+            models
+          {% endif %}
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-item">
+
+      <strong>▱</strong>
+
+      <div>
+
+        <span>Photographs</span>
+
+        {% set makerPhotoTotal = 0 %}
+
+        {% for model in maker.models %}
+
+          {% set makerPhotoTotal =
+            makerPhotoTotal + model.photoCount
+          %}
+
+        {% endfor %}
+
+        <p>
+          {{ makerPhotoTotal }}
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-item">
+
+      <strong>◌</strong>
+
+      <div>
+
+        <span>Maker</span>
+
+        <p>
+          {{ maker.name }}
+        </p>
+
+      </div>
+
+    </div>
+
+  </aside>
+
+</div>

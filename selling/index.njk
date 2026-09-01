@@ -1,0 +1,158 @@
+---
+layout: base
+title: Banjos For Sale
+---
+
+<section class="sales-section">
+
+  <div class="section-heading">
+    <h2>Available For Sale</h2>
+    <p>Original and antique banjos currently available from Glen's collection.</p>
+  </div>
+
+  <div class="banjo-grid">
+
+    {% for banjo in banjos %}
+      {% if banjo.status == "for-sale" %}
+
+        <article class="banjo-card">
+
+          {% if banjo.images and banjo.images.length > 0 %}
+
+            <div class="banjo-image-main">
+              <img
+                src="/{{ banjo.images[0] }}"
+                alt="{{ banjo.name }}"
+                class="main-photo"
+              >
+            </div>
+
+            {% if banjo.images.length > 1 %}
+              <div class="thumbnail-row">
+
+                {% for image in banjo.images %}
+                  <img
+                    src="/{{ image }}"
+                    alt="{{ banjo.name }}"
+                    class="thumbnail"
+                  >
+                {% endfor %}
+
+              </div>
+            {% endif %}
+
+          {% endif %}
+
+          <div class="banjo-info">
+
+            <span class="status-tag for-sale">
+              FOR SALE
+            </span>
+
+            <h2 class="banjo-name">
+              {{ banjo.name }}
+            </h2>
+
+            {% if banjo.year %}
+              <p class="banjo-year">
+                {{ banjo.year }}
+              </p>
+            {% endif %}
+
+            {% if banjo.description %}
+              <p class="banjo-desc">
+                {{ banjo.description }}
+              </p>
+            {% endif %}
+
+            {% if banjo.price %}
+              <p class="price-tag">
+                {{ banjo.price }}
+              </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+<section class="sales-section sold-section">
+
+  <div class="section-heading">
+    <h2>Recently Sold</h2>
+    <p>Previously available instruments that have now been sold.</p>
+  </div>
+
+  <div class="banjo-grid">
+
+    {% for banjo in banjos %}
+      {% if banjo.status == "sold" %}
+
+        <article class="banjo-card sold-card">
+
+          {% if banjo.images and banjo.images.length > 0 %}
+
+            <div class="banjo-image-main">
+              <img
+                src="/{{ banjo.images[0] }}"
+                alt="{{ banjo.name }}"
+                class="main-photo"
+              >
+            </div>
+
+            {% if banjo.images.length > 1 %}
+              <div class="thumbnail-row">
+
+                {% for image in banjo.images %}
+                  <img
+                    src="/{{ image }}"
+                    alt="{{ banjo.name }}"
+                    class="thumbnail"
+                  >
+
+                {% endfor %}
+
+              </div>
+            {% endif %}
+
+          {% endif %}
+
+          <div class="banjo-info">
+
+            <span class="status-tag sold">
+              SOLD
+            </span>
+
+            <h2 class="banjo-name">
+              {{ banjo.name }}
+            </h2>
+
+            {% if banjo.year %}
+              <p class="banjo-year">
+                {{ banjo.year }}
+              </p>
+            {% endif %}
+
+            {% if banjo.description %}
+              <p class="banjo-desc">
+                {{ banjo.description }}
+              </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</section>

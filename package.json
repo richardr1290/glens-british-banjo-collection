@@ -1,0 +1,28 @@
+{
+  "name": "banjo-website-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardr1290/glens-british-banjo-collection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/richardr1290/glens-british-banjo-collection/issues"
+  },
+  "homepage": "https://github.com/richardr1290/glens-british-banjo-collection#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "mammoth": "^1.12.2"
+  }
+}
