@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const INVENTORY_FILE = "banjo-folder-inventory.json";
 const CATALOGUE_FILE = "catalogue-extracted.json";
-const OUTPUT_FILE = "collection-master-test.json";
+const OUTPUT_FILE = "collection-master.json";
 
 console.log("=================================");
 console.log("BUILDING COLLECTION MASTER DATA");
@@ -88,11 +88,9 @@ function getPhotos(relativeFolder) {
     return imageExtensions.includes(extension);
 
   })
-  .map(item => {
-
-    return `${cleanFolder}/${item.name}`;
-
-  });
+.map(item => {
+  return `https://images.glensbritishbanjocollection.co.uk/${cleanFolder}/${item.name}`;
+});
 
 }
 
