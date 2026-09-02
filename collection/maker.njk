@@ -152,7 +152,7 @@ title: "{{ maker.name }}"
             {% if model.photos and model.photos.length > 0 %}
 
               <img
-                src="/banjos/{{ model.photos[0] }}"
+               src="{{ model.photos[0] }}"
                 alt="{{ maker.name }} — {{ model.title }}"
                 loading="lazy"
               >
