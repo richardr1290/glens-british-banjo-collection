@@ -75,7 +75,7 @@ title: "{{ model.title }}"
             <button
               type="button"
               class="gallery-thumbnail {% if loop.first %}selected{% endif %}"
-              data-image="/banjos/{{ image }}"
+             data-image="{{ image }}"
               aria-label="View photograph {{ loop.index }}"
             >
 
