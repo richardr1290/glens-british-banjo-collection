@@ -8,15 +8,11 @@ console.log("=================================");
 console.log("BUILDING COLLECTION MASTER DATA");
 console.log("=================================\n");
 
-const inventory = JSON.parse(
-  fs.readFileSync(INVENTORY_FILE, "utf8")
-);
-
 const catalogue = JSON.parse(
   fs.readFileSync(CATALOGUE_FILE, "utf8")
 );
 
-console.log("Inventory records:", inventory.length);
+console.log("Scanning actual banjos folder...");
 console.log("Catalogue entries:", catalogue.entries.length);
 console.log("");
 
@@ -108,43 +104,48 @@ function findCatalogueEntries(maker) {
 
 
 // ------------------------------------------------------------
-// FIND MODEL FOLDERS
+// FIND MODEL FOLDERS DIRECTLY FROM BANJOS DIRECTORY
 // ------------------------------------------------------------
 
 const modelFolders = [];
 
-for (const item of inventory) {
+const makerDirectories = fs
+  .readdirSync(PHOTO_ROOT, { withFileTypes: true })
+  .filter(item => item.isDirectory());
 
-  const folder = item.Folder;
+for (const makerDirectory of makerDirectories) {
 
-  if (!folder.includes("\\")) {
-    continue;
-  }
-
-  const parts =
-    folder.split("\\");
-
-  const maker =
-    parts[0];
-
-const model =
-  parts.slice(1).join("/");
+  const maker = makerDirectory.name;
 
   if (ignoredRoots.has(maker)) {
     continue;
   }
 
- const photos =
-  getPhotos(folder.replace(/\\/g, "/"));
+  const makerPath =
+    `${PHOTO_ROOT}\\${maker}`;
 
+  const modelDirectories = fs
+    .readdirSync(makerPath, { withFileTypes: true })
+    .filter(item => item.isDirectory());
+
+  for (const modelDirectory of modelDirectories) {
+
+    const model = modelDirectory.name;
+
+    const folder =
+      `${maker}/${model}`;
+
+    const photos =
+      getPhotos(folder);
+
+if (photos.length > 0) {
   modelFolders.push({
-
     maker,
     model,
     photos
-
   });
-
+}
+  }
 }
 
 

@@ -134,8 +134,18 @@ document.querySelectorAll(".photo-gallery").forEach(function(gallery) {
   const thumbnails =
     gallery.querySelectorAll(".gallery-thumbnail");
 
-  const currentPhoto =
+    const currentPhoto =
     gallery.querySelector(".current-photo");
+
+
+  if (thumbnails.length > 0) {
+
+    mainPhoto.src =
+      thumbnails[0].dataset.image;
+
+    thumbnails[0].classList.add("selected");
+
+  }
 
 
   thumbnails.forEach(function(button, index) {
