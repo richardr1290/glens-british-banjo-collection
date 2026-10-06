@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T14:27:17.974Z",
+  "generated": "2026-10-06T16:24:51.031Z",
   "structure": "maker-with-flat-model-index",
   "rules": {
     "makerWriteups": "One write-up per maker",
@@ -8,9 +8,9 @@
     "photographs": "Every photograph belongs to a model folder"
   },
   "summary": {
-    "makers": 60,
-    "models": 136,
-    "photographs": 1126
+    "makers": 71,
+    "models": 153,
+    "photographs": 1265
   },
   "makers": [
     {
@@ -766,13 +766,39 @@
       ]
     },
     {
+      "name": "Charles C Boileau",
+      "slug": "charles-c-boileau",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-031",
+          "maker": "Charles C Boileau",
+          "makerSlug": "charles-c-boileau",
+          "title": "Fretless Restored",
+          "slug": "fretless-restored",
+          "folder": "Fretless Restored",
+          "photoCount": 7,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Cherry",
       "slug": "cherry",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-031",
+          "id": "collection-032",
           "maker": "Cherry",
           "makerSlug": "cherry",
           "title": "model 1",
@@ -812,7 +838,7 @@
       ],
       "models": [
         {
-          "id": "collection-032",
+          "id": "collection-033",
           "maker": "Clamp",
           "makerSlug": "clamp",
           "title": "Drawing room model",
@@ -831,7 +857,7 @@
           ]
         },
         {
-          "id": "collection-033",
+          "id": "collection-034",
           "maker": "Clamp",
           "makerSlug": "clamp",
           "title": "Fretless 5 string",
@@ -891,7 +917,7 @@
       ],
       "models": [
         {
-          "id": "collection-034",
+          "id": "collection-035",
           "maker": "Clerc",
           "makerSlug": "clerc",
           "title": "The Athena",
@@ -913,7 +939,7 @@
           ]
         },
         {
-          "id": "collection-035",
+          "id": "collection-036",
           "maker": "Clerc",
           "makerSlug": "clerc",
           "title": "The Crescent",
@@ -933,7 +959,7 @@
           ]
         },
         {
-          "id": "collection-036",
+          "id": "collection-037",
           "maker": "Clerc",
           "makerSlug": "clerc",
           "title": "The Parlour model",
@@ -961,7 +987,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-037",
+          "id": "collection-038",
           "maker": "Cole",
           "makerSlug": "cole",
           "title": "model 1",
@@ -988,7 +1014,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-038",
+          "id": "collection-039",
           "maker": "Crosby_Crosbie",
           "makerSlug": "crosby-crosbie",
           "title": "Early model",
@@ -1007,7 +1033,7 @@
           ]
         },
         {
-          "id": "collection-039",
+          "id": "collection-040",
           "maker": "Crosby_Crosbie",
           "makerSlug": "crosby-crosbie",
           "title": "Model 2",
@@ -1026,7 +1052,7 @@
           ]
         },
         {
-          "id": "collection-040",
+          "id": "collection-041",
           "maker": "Crosby_Crosbie",
           "makerSlug": "crosby-crosbie",
           "title": "Model 3",
@@ -1053,7 +1079,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-041",
+          "id": "collection-042",
           "maker": "Cubley",
           "makerSlug": "cubley",
           "title": "model 1",
@@ -1102,7 +1128,7 @@
       ],
       "models": [
         {
-          "id": "collection-042",
+          "id": "collection-043",
           "maker": "Dallas",
           "makerSlug": "dallas",
           "title": "1 Bevelled edge model",
@@ -1121,7 +1147,7 @@
           ]
         },
         {
-          "id": "collection-043",
+          "id": "collection-044",
           "maker": "Dallas",
           "makerSlug": "dallas",
           "title": "2 Early fretless model",
@@ -1141,7 +1167,7 @@
           ]
         },
         {
-          "id": "collection-044",
+          "id": "collection-045",
           "maker": "Dallas",
           "makerSlug": "dallas",
           "title": "3 Zither model",
@@ -1164,7 +1190,7 @@
           ]
         },
         {
-          "id": "collection-045",
+          "id": "collection-046",
           "maker": "Dallas",
           "makerSlug": "dallas",
           "title": "4 Concert Banjo",
@@ -1182,7 +1208,7 @@
           ]
         },
         {
-          "id": "collection-046",
+          "id": "collection-047",
           "maker": "Dallas",
           "makerSlug": "dallas",
           "title": "5 Early serial No 970",
@@ -1254,7 +1280,7 @@
       ],
       "models": [
         {
-          "id": "collection-047",
+          "id": "collection-048",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "3 Presentation Piece",
@@ -1273,7 +1299,7 @@
           ]
         },
         {
-          "id": "collection-048",
+          "id": "collection-049",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "4 Novelty banjo sold",
@@ -1289,7 +1315,7 @@
           ]
         },
         {
-          "id": "collection-049",
+          "id": "collection-050",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "5 Patent spring example",
@@ -1312,7 +1338,7 @@
           ]
         },
         {
-          "id": "collection-050",
+          "id": "collection-051",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "6 6 string patent model",
@@ -1335,7 +1361,7 @@
           ]
         },
         {
-          "id": "collection-051",
+          "id": "collection-052",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "is this model 7 Piccolo",
@@ -1353,7 +1379,7 @@
           ]
         },
         {
-          "id": "collection-052",
+          "id": "collection-053",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "model 1 Small Novelty Banjo",
@@ -1369,7 +1395,7 @@
           ]
         },
         {
-          "id": "collection-053",
+          "id": "collection-054",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "Model 10 Wrights Challenger",
@@ -1391,7 +1417,7 @@
           ]
         },
         {
-          "id": "collection-054",
+          "id": "collection-055",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "model 2 Novelty Banjo",
@@ -1407,7 +1433,7 @@
           ]
         },
         {
-          "id": "collection-055",
+          "id": "collection-056",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "model 8",
@@ -1427,7 +1453,7 @@
           ]
         },
         {
-          "id": "collection-056",
+          "id": "collection-057",
           "maker": "Daniels",
           "makerSlug": "daniels",
           "title": "model 9 rosewood 6 string",
@@ -1463,7 +1489,7 @@
       ],
       "models": [
         {
-          "id": "collection-057",
+          "id": "collection-058",
           "maker": "Deane",
           "makerSlug": "deane",
           "title": "Model 1",
@@ -1490,7 +1516,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-058",
+          "id": "collection-059",
           "maker": "Early English maker",
           "makerSlug": "early-english-maker",
           "title": "model 1",
@@ -1537,7 +1563,7 @@
       ],
       "models": [
         {
-          "id": "collection-059",
+          "id": "collection-060",
           "maker": "Essex",
           "makerSlug": "essex",
           "title": "Clipper",
@@ -1556,7 +1582,7 @@
           ]
         },
         {
-          "id": "collection-060",
+          "id": "collection-061",
           "maker": "Essex",
           "makerSlug": "essex",
           "title": "Essex Popular",
@@ -1581,7 +1607,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-061",
+          "id": "collection-062",
           "maker": "fairbanks",
           "makerSlug": "fairbanks",
           "title": "AC FAIRBANK",
@@ -1600,7 +1626,7 @@
           ]
         },
         {
-          "id": "collection-062",
+          "id": "collection-063",
           "maker": "fairbanks",
           "makerSlug": "fairbanks",
           "title": "fairbanks electric",
@@ -1623,13 +1649,40 @@
       ]
     },
     {
+      "name": "Fred Langham",
+      "slug": "fred-langham",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-064",
+          "maker": "Fred Langham",
+          "makerSlug": "fred-langham",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 8,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "GHS",
       "slug": "ghs",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-063",
+          "id": "collection-065",
           "maker": "GHS",
           "makerSlug": "ghs",
           "title": "model 1",
@@ -1656,7 +1709,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-064",
+          "id": "collection-066",
           "maker": "Henshawlate",
           "makerSlug": "henshawlate",
           "title": "model 1",
@@ -1678,13 +1731,61 @@
       ]
     },
     {
+      "name": "Hewett Patent",
+      "slug": "hewett-patent",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-067",
+          "maker": "Hewett Patent",
+          "makerSlug": "hewett-patent",
+          "title": "model1",
+          "slug": "model1",
+          "folder": "model1",
+          "photoCount": 9,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (7).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (8).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50.jpeg"
+          ]
+        },
+        {
+          "id": "collection-068",
+          "maker": "Hewett Patent",
+          "makerSlug": "hewett-patent",
+          "title": "model2",
+          "slug": "model2",
+          "folder": "model2",
+          "photoCount": 9,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (7).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (8).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hewitt",
       "slug": "hewitt",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-065",
+          "id": "collection-069",
           "maker": "Hewitt",
           "makerSlug": "hewitt",
           "title": "model 1",
@@ -1712,7 +1813,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-066",
+          "id": "collection-070",
           "maker": "Houghton",
           "makerSlug": "houghton",
           "title": "model 1",
@@ -1733,13 +1834,42 @@
       ]
     },
     {
+      "name": "J Alvey Turner",
+      "slug": "j-alvey-turner",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-071",
+          "maker": "J Alvey Turner",
+          "makerSlug": "j-alvey-turner",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 10,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "J B Schall",
       "slug": "j-b-schall",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-067",
+          "id": "collection-072",
           "maker": "J B Schall",
           "makerSlug": "j-b-schall",
           "title": "concert",
@@ -1758,7 +1888,7 @@
           ]
         },
         {
-          "id": "collection-068",
+          "id": "collection-073",
           "maker": "J B Schall",
           "makerSlug": "j-b-schall",
           "title": "nelson",
@@ -1778,13 +1908,40 @@
       ]
     },
     {
+      "name": "J Dallas",
+      "slug": "j-dallas",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-074",
+          "maker": "J Dallas",
+          "makerSlug": "j-dallas",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 8,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (7).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "John Grey&sons",
       "slug": "john-greyandsons",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-069",
+          "id": "collection-075",
           "maker": "John Grey&sons",
           "makerSlug": "john-greyandsons",
           "title": "high end",
@@ -1812,7 +1969,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-070",
+          "id": "collection-076",
           "maker": "Kelly",
           "makerSlug": "kelly",
           "title": "model 1",
@@ -1910,7 +2067,7 @@
       ],
       "models": [
         {
-          "id": "collection-071",
+          "id": "collection-077",
           "maker": "Kemp",
           "makerSlug": "kemp",
           "title": "Model 1",
@@ -1937,7 +2094,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-072",
+          "id": "collection-078",
           "maker": "KM Singh Sitar",
           "makerSlug": "km-singh-sitar",
           "title": "model 1",
@@ -1967,7 +2124,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-073",
+          "id": "collection-079",
           "maker": "Lange tripple X",
           "makerSlug": "lange-tripple-x",
           "title": "triplexmodel1",
@@ -1990,13 +2147,69 @@
       ]
     },
     {
+      "name": "Leon Clerc",
+      "slug": "leon-clerc",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-080",
+          "maker": "Leon Clerc",
+          "makerSlug": "leon-clerc",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 10,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lyon&Healy",
+      "slug": "lyonandhealy",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-081",
+          "maker": "Lyon&Healy",
+          "makerSlug": "lyonandhealy",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 8,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.08.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Mathews",
       "slug": "mathews",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-074",
+          "id": "collection-082",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "1885 5 string",
@@ -2014,7 +2227,7 @@
           ]
         },
         {
-          "id": "collection-075",
+          "id": "collection-083",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Assembly No 88",
@@ -2036,7 +2249,7 @@
           ]
         },
         {
-          "id": "collection-076",
+          "id": "collection-084",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Custom made 1886",
@@ -2054,7 +2267,7 @@
           ]
         },
         {
-          "id": "collection-077",
+          "id": "collection-085",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Engraved metal fretboard",
@@ -2078,7 +2291,7 @@
           ]
         },
         {
-          "id": "collection-078",
+          "id": "collection-086",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Fretless to fret",
@@ -2097,7 +2310,7 @@
           ]
         },
         {
-          "id": "collection-079",
+          "id": "collection-087",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Made for WS Riley",
@@ -2116,7 +2329,7 @@
           ]
         },
         {
-          "id": "collection-080",
+          "id": "collection-088",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "No 814 Dulcet",
@@ -2134,7 +2347,7 @@
           ]
         },
         {
-          "id": "collection-081",
+          "id": "collection-089",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "No 88 Protinus",
@@ -2153,7 +2366,7 @@
           ]
         },
         {
-          "id": "collection-082",
+          "id": "collection-090",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Parlour model No 21",
@@ -2170,7 +2383,7 @@
           ]
         },
         {
-          "id": "collection-083",
+          "id": "collection-091",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Popular model",
@@ -2189,7 +2402,7 @@
           ]
         },
         {
-          "id": "collection-084",
+          "id": "collection-092",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Star _ special tuning pegs",
@@ -2208,7 +2421,7 @@
           ]
         },
         {
-          "id": "collection-085",
+          "id": "collection-093",
           "maker": "Mathews",
           "makerSlug": "mathews",
           "title": "Stork model",
@@ -2234,7 +2447,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-086",
+          "id": "collection-094",
           "maker": "Miller",
           "makerSlug": "miller",
           "title": "model 1",
@@ -2264,7 +2477,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-087",
+          "id": "collection-095",
           "maker": "Morris",
           "makerSlug": "morris",
           "title": "model 1",
@@ -2293,7 +2506,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-088",
+          "id": "collection-096",
           "maker": "Nice",
           "makerSlug": "nice",
           "title": "7 string",
@@ -2313,7 +2526,7 @@
           ]
         },
         {
-          "id": "collection-089",
+          "id": "collection-097",
           "maker": "Nice",
           "makerSlug": "nice",
           "title": "Model 1 1876",
@@ -2336,7 +2549,7 @@
           ]
         },
         {
-          "id": "collection-090",
+          "id": "collection-098",
           "maker": "Nice",
           "makerSlug": "nice",
           "title": "Model 2 5 string 1874",
@@ -2353,7 +2566,7 @@
           ]
         },
         {
-          "id": "collection-091",
+          "id": "collection-099",
           "maker": "Nice",
           "makerSlug": "nice",
           "title": "Model 3 Zither",
@@ -2378,7 +2591,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-092",
+          "id": "collection-100",
           "maker": "Norton Greenop",
           "makerSlug": "norton-greenop",
           "title": "model 1",
@@ -2403,7 +2616,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-093",
+          "id": "collection-101",
           "maker": "Not marked",
           "makerSlug": "not-marked",
           "title": "model 1",
@@ -2424,13 +2637,41 @@
       ]
     },
     {
+      "name": "regal",
+      "slug": "regal",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-102",
+          "maker": "regal",
+          "makerSlug": "regal",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 9,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.25 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.25.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Salvucci",
       "slug": "salvucci",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-094",
+          "id": "collection-103",
           "maker": "Salvucci",
           "makerSlug": "salvucci",
           "title": "Model 1",
@@ -2459,7 +2700,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-095",
+          "id": "collection-104",
           "maker": "Sanders Papworth",
           "makerSlug": "sanders-papworth",
           "title": "Model 1",
@@ -2485,7 +2726,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-096",
+          "id": "collection-105",
           "maker": "Simpson",
           "makerSlug": "simpson",
           "title": "Austrailian snakewood model",
@@ -2502,7 +2743,7 @@
           ]
         },
         {
-          "id": "collection-097",
+          "id": "collection-106",
           "maker": "Simpson",
           "makerSlug": "simpson",
           "title": "Fretless with scrim ware",
@@ -2521,7 +2762,7 @@
           ]
         },
         {
-          "id": "collection-098",
+          "id": "collection-107",
           "maker": "Simpson",
           "makerSlug": "simpson",
           "title": "Model 4",
@@ -2543,7 +2784,7 @@
           ]
         },
         {
-          "id": "collection-099",
+          "id": "collection-108",
           "maker": "Simpson",
           "makerSlug": "simpson",
           "title": "Model 5",
@@ -2558,7 +2799,7 @@
           ]
         },
         {
-          "id": "collection-100",
+          "id": "collection-109",
           "maker": "Simpson",
           "makerSlug": "simpson",
           "title": "Morris pattern tone ring model",
@@ -2596,7 +2837,7 @@
       ],
       "models": [
         {
-          "id": "collection-101",
+          "id": "collection-110",
           "maker": "Spencer",
           "makerSlug": "spencer",
           "title": "Model 1",
@@ -2614,7 +2855,7 @@
           ]
         },
         {
-          "id": "collection-102",
+          "id": "collection-111",
           "maker": "Spencer",
           "makerSlug": "spencer",
           "title": "Model 2 early 5 sting",
@@ -2636,7 +2877,7 @@
           ]
         },
         {
-          "id": "collection-103",
+          "id": "collection-112",
           "maker": "Spencer",
           "makerSlug": "spencer",
           "title": "Model 3 for Clifford Essex",
@@ -2665,7 +2906,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-104",
+          "id": "collection-113",
           "maker": "Spratt",
           "makerSlug": "spratt",
           "title": "model 1",
@@ -2681,6 +2922,34 @@
             "https://images.glensbritishbanjocollection.co.uk/Spratt/model 1/IMG-20250620-WA0051.jpg",
             "https://images.glensbritishbanjocollection.co.uk/Spratt/model 1/IMG-20250620-WA0052.jpg",
             "https://images.glensbritishbanjocollection.co.uk/Spratt/model 1/IMG-20250620-WA0053.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "star",
+      "slug": "star",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-114",
+          "maker": "star",
+          "makerSlug": "star",
+          "title": "zither",
+          "slug": "zither",
+          "folder": "zither",
+          "photoCount": 9,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (7).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (8).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00.jpeg"
           ]
         }
       ]
@@ -2728,7 +2997,7 @@
       ],
       "models": [
         {
-          "id": "collection-105",
+          "id": "collection-115",
           "maker": "Stewart",
           "makerSlug": "stewart",
           "title": "2nd Grade 1888",
@@ -2745,7 +3014,7 @@
           ]
         },
         {
-          "id": "collection-106",
+          "id": "collection-116",
           "maker": "Stewart",
           "makerSlug": "stewart",
           "title": "Universal Favourite",
@@ -2773,7 +3042,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-107",
+          "id": "collection-117",
           "maker": "Super Tone_Sears",
           "makerSlug": "super-tone-sears",
           "title": "model 1",
@@ -2850,7 +3119,7 @@
       ],
       "models": [
         {
-          "id": "collection-108",
+          "id": "collection-118",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 1 5 string 1879",
@@ -2868,7 +3137,7 @@
           ]
         },
         {
-          "id": "collection-109",
+          "id": "collection-119",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 2 patent zither",
@@ -2887,7 +3156,7 @@
           ]
         },
         {
-          "id": "collection-110",
+          "id": "collection-120",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 3 1884",
@@ -2911,7 +3180,7 @@
           ]
         },
         {
-          "id": "collection-111",
+          "id": "collection-121",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 4 Giraffe Neck",
@@ -2933,7 +3202,7 @@
           ]
         },
         {
-          "id": "collection-112",
+          "id": "collection-122",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 5 Fretles early Monarch",
@@ -2955,7 +3224,7 @@
           ]
         },
         {
-          "id": "collection-113",
+          "id": "collection-123",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 6 Angled Engaging Mute",
@@ -2974,7 +3243,7 @@
           ]
         },
         {
-          "id": "collection-114",
+          "id": "collection-124",
           "maker": "Taylor",
           "makerSlug": "taylor",
           "title": "Model 7 1885",
@@ -3000,7 +3269,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-115",
+          "id": "collection-125",
           "maker": "Temlett",
           "makerSlug": "temlett",
           "title": "5 string",
@@ -3020,7 +3289,7 @@
           ]
         },
         {
-          "id": "collection-116",
+          "id": "collection-126",
           "maker": "Temlett",
           "makerSlug": "temlett",
           "title": "Model 1 Bell Shoe Pot",
@@ -3039,7 +3308,7 @@
           ]
         },
         {
-          "id": "collection-117",
+          "id": "collection-127",
           "maker": "Temlett",
           "makerSlug": "temlett",
           "title": "zither",
@@ -3068,7 +3337,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-118",
+          "id": "collection-128",
           "maker": "Tilley",
           "makerSlug": "tilley",
           "title": "Model 1 Special",
@@ -3089,7 +3358,7 @@
           ]
         },
         {
-          "id": "collection-119",
+          "id": "collection-129",
           "maker": "Tilley",
           "makerSlug": "tilley",
           "title": "Model 2",
@@ -3107,7 +3376,7 @@
           ]
         },
         {
-          "id": "collection-120",
+          "id": "collection-130",
           "maker": "Tilley",
           "makerSlug": "tilley",
           "title": "Model 3",
@@ -3133,7 +3402,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-121",
+          "id": "collection-131",
           "maker": "Tonbridgeware",
           "makerSlug": "tonbridgeware",
           "title": "model 1",
@@ -3160,7 +3429,44 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-122",
+          "id": "collection-132",
+          "maker": "unknown",
+          "makerSlug": "unknown",
+          "title": "19th cent",
+          "slug": "19th-cent",
+          "folder": "19th cent",
+          "photoCount": 7,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.37 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.37.jpeg"
+          ]
+        },
+        {
+          "id": "collection-133",
+          "maker": "unknown",
+          "makerSlug": "unknown",
+          "title": "7 string",
+          "slug": "7-string",
+          "folder": "7 string",
+          "photoCount": 8,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.19 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.19.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20.jpeg"
+          ]
+        },
+        {
+          "id": "collection-134",
           "maker": "unknown",
           "makerSlug": "unknown",
           "title": "americancivilwar",
@@ -3188,7 +3494,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-123",
+          "id": "collection-135",
           "maker": "vega 5 string",
           "makerSlug": "vega-5-string",
           "title": "vegamodel1",
@@ -3209,13 +3515,55 @@
       ]
     },
     {
+      "name": "W Temlett",
+      "slug": "w-temlett",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-136",
+          "maker": "W Temlett",
+          "makerSlug": "w-temlett",
+          "title": "zither",
+          "slug": "zither",
+          "folder": "zither",
+          "photoCount": 6,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00.jpeg"
+          ]
+        },
+        {
+          "id": "collection-137",
+          "maker": "W Temlett",
+          "makerSlug": "w-temlett",
+          "title": "zither2",
+          "slug": "zither2",
+          "folder": "zither2",
+          "photoCount": 6,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34.jpeg"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Wallis",
       "slug": "wallis",
       "makerWriteup": null,
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-124",
+          "id": "collection-138",
           "maker": "Wallis",
           "makerSlug": "wallis",
           "title": "model 1",
@@ -3233,6 +3581,53 @@
             "https://images.glensbritishbanjocollection.co.uk/Wallis/model 1/IMG-20260324-WA0022.jpg",
             "https://images.glensbritishbanjocollection.co.uk/Wallis/model 1/IMG-20260324-WA0023.jpg"
           ]
+        },
+        {
+          "id": "collection-139",
+          "maker": "Wallis",
+          "makerSlug": "wallis",
+          "title": "model 2",
+          "slug": "model-2",
+          "folder": "model 2",
+          "photoCount": 7,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warwick Grover",
+      "slug": "warwick-grover",
+      "makerWriteup": null,
+      "catalogueReferences": [],
+      "models": [
+        {
+          "id": "collection-140",
+          "maker": "Warwick Grover",
+          "makerSlug": "warwick-grover",
+          "title": "model 1",
+          "slug": "model-1",
+          "folder": "model 1",
+          "photoCount": 10,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11.jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12.jpeg"
+          ]
         }
       ]
     },
@@ -3243,7 +3638,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-125",
+          "id": "collection-141",
           "maker": "Wicham C model",
           "makerSlug": "wicham-c-model",
           "title": "model 1",
@@ -3269,7 +3664,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-126",
+          "id": "collection-142",
           "maker": "Wilks",
           "makerSlug": "wilks",
           "title": "Model 1 1894",
@@ -3288,7 +3683,7 @@
           ]
         },
         {
-          "id": "collection-127",
+          "id": "collection-143",
           "maker": "Wilks",
           "makerSlug": "wilks",
           "title": "Model 2 1900",
@@ -3314,7 +3709,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-128",
+          "id": "collection-144",
           "maker": "Wilmshurst",
           "makerSlug": "wilmshurst",
           "title": "Model circa 1890",
@@ -3332,7 +3727,7 @@
           ]
         },
         {
-          "id": "collection-129",
+          "id": "collection-145",
           "maker": "Wilmshurst",
           "makerSlug": "wilmshurst",
           "title": "vinerleeds",
@@ -3351,7 +3746,7 @@
           ]
         },
         {
-          "id": "collection-130",
+          "id": "collection-146",
           "maker": "Wilmshurst",
           "makerSlug": "wilmshurst",
           "title": "zither",
@@ -3380,7 +3775,7 @@
       "catalogueReferences": [],
       "models": [
         {
-          "id": "collection-131",
+          "id": "collection-147",
           "maker": "Winder",
           "makerSlug": "winder",
           "title": "Model 1",
@@ -3415,7 +3810,7 @@
       ],
       "models": [
         {
-          "id": "collection-132",
+          "id": "collection-148",
           "maker": "Windsor",
           "makerSlug": "windsor",
           "title": "Artiste Delux Porthole",
@@ -3436,7 +3831,7 @@
           ]
         },
         {
-          "id": "collection-133",
+          "id": "collection-149",
           "maker": "Windsor",
           "makerSlug": "windsor",
           "title": "model 1",
@@ -3454,7 +3849,7 @@
           ]
         },
         {
-          "id": "collection-134",
+          "id": "collection-150",
           "maker": "Windsor",
           "makerSlug": "windsor",
           "title": "Model 2 Windsor_Taylor",
@@ -3472,7 +3867,7 @@
           ]
         },
         {
-          "id": "collection-135",
+          "id": "collection-151",
           "maker": "Windsor",
           "makerSlug": "windsor",
           "title": "Model 3 Scotcher and Jeffrey",
@@ -3490,7 +3885,7 @@
           ]
         },
         {
-          "id": "collection-136",
+          "id": "collection-152",
           "maker": "Windsor",
           "makerSlug": "windsor",
           "title": "Model 4 Sultan no2",
@@ -3508,6 +3903,25 @@
             "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0043.jpg",
             "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0044.jpg",
             "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0045.jpg"
+          ]
+        },
+        {
+          "id": "collection-153",
+          "maker": "Windsor",
+          "makerSlug": "windsor",
+          "title": "porthole",
+          "slug": "porthole",
+          "folder": "porthole",
+          "photoCount": 8,
+          "photos": [
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (1).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (2).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (3).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (4).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (5).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (6).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (7).jpeg",
+            "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14.jpeg"
           ]
         }
       ]
@@ -4078,6 +4492,24 @@
     },
     {
       "id": "collection-031",
+      "maker": "Charles C Boileau",
+      "makerSlug": "charles-c-boileau",
+      "title": "Fretless Restored",
+      "slug": "fretless-restored",
+      "folder": "Fretless Restored",
+      "photoCount": 7,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Charles C Boileau/Fretless Restored/WhatsApp Image 2026-09-11 at 14.36.40.jpeg"
+      ]
+    },
+    {
+      "id": "collection-032",
       "maker": "Cherry",
       "makerSlug": "cherry",
       "title": "model 1",
@@ -4098,7 +4530,7 @@
       ]
     },
     {
-      "id": "collection-032",
+      "id": "collection-033",
       "maker": "Clamp",
       "makerSlug": "clamp",
       "title": "Drawing room model",
@@ -4117,7 +4549,7 @@
       ]
     },
     {
-      "id": "collection-033",
+      "id": "collection-034",
       "maker": "Clamp",
       "makerSlug": "clamp",
       "title": "Fretless 5 string",
@@ -4138,7 +4570,7 @@
       ]
     },
     {
-      "id": "collection-034",
+      "id": "collection-035",
       "maker": "Clerc",
       "makerSlug": "clerc",
       "title": "The Athena",
@@ -4160,7 +4592,7 @@
       ]
     },
     {
-      "id": "collection-035",
+      "id": "collection-036",
       "maker": "Clerc",
       "makerSlug": "clerc",
       "title": "The Crescent",
@@ -4180,7 +4612,7 @@
       ]
     },
     {
-      "id": "collection-036",
+      "id": "collection-037",
       "maker": "Clerc",
       "makerSlug": "clerc",
       "title": "The Parlour model",
@@ -4200,7 +4632,7 @@
       ]
     },
     {
-      "id": "collection-037",
+      "id": "collection-038",
       "maker": "Cole",
       "makerSlug": "cole",
       "title": "model 1",
@@ -4219,7 +4651,7 @@
       ]
     },
     {
-      "id": "collection-038",
+      "id": "collection-039",
       "maker": "Crosby_Crosbie",
       "makerSlug": "crosby-crosbie",
       "title": "Early model",
@@ -4238,7 +4670,7 @@
       ]
     },
     {
-      "id": "collection-039",
+      "id": "collection-040",
       "maker": "Crosby_Crosbie",
       "makerSlug": "crosby-crosbie",
       "title": "Model 2",
@@ -4257,7 +4689,7 @@
       ]
     },
     {
-      "id": "collection-040",
+      "id": "collection-041",
       "maker": "Crosby_Crosbie",
       "makerSlug": "crosby-crosbie",
       "title": "Model 3",
@@ -4276,7 +4708,7 @@
       ]
     },
     {
-      "id": "collection-041",
+      "id": "collection-042",
       "maker": "Cubley",
       "makerSlug": "cubley",
       "title": "model 1",
@@ -4296,7 +4728,7 @@
       ]
     },
     {
-      "id": "collection-042",
+      "id": "collection-043",
       "maker": "Dallas",
       "makerSlug": "dallas",
       "title": "1 Bevelled edge model",
@@ -4315,7 +4747,7 @@
       ]
     },
     {
-      "id": "collection-043",
+      "id": "collection-044",
       "maker": "Dallas",
       "makerSlug": "dallas",
       "title": "2 Early fretless model",
@@ -4335,7 +4767,7 @@
       ]
     },
     {
-      "id": "collection-044",
+      "id": "collection-045",
       "maker": "Dallas",
       "makerSlug": "dallas",
       "title": "3 Zither model",
@@ -4358,7 +4790,7 @@
       ]
     },
     {
-      "id": "collection-045",
+      "id": "collection-046",
       "maker": "Dallas",
       "makerSlug": "dallas",
       "title": "4 Concert Banjo",
@@ -4376,7 +4808,7 @@
       ]
     },
     {
-      "id": "collection-046",
+      "id": "collection-047",
       "maker": "Dallas",
       "makerSlug": "dallas",
       "title": "5 Early serial No 970",
@@ -4394,7 +4826,7 @@
       ]
     },
     {
-      "id": "collection-047",
+      "id": "collection-048",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "3 Presentation Piece",
@@ -4413,7 +4845,7 @@
       ]
     },
     {
-      "id": "collection-048",
+      "id": "collection-049",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "4 Novelty banjo sold",
@@ -4429,7 +4861,7 @@
       ]
     },
     {
-      "id": "collection-049",
+      "id": "collection-050",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "5 Patent spring example",
@@ -4452,7 +4884,7 @@
       ]
     },
     {
-      "id": "collection-050",
+      "id": "collection-051",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "6 6 string patent model",
@@ -4475,7 +4907,7 @@
       ]
     },
     {
-      "id": "collection-051",
+      "id": "collection-052",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "is this model 7 Piccolo",
@@ -4493,7 +4925,7 @@
       ]
     },
     {
-      "id": "collection-052",
+      "id": "collection-053",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "model 1 Small Novelty Banjo",
@@ -4509,7 +4941,7 @@
       ]
     },
     {
-      "id": "collection-053",
+      "id": "collection-054",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "Model 10 Wrights Challenger",
@@ -4531,7 +4963,7 @@
       ]
     },
     {
-      "id": "collection-054",
+      "id": "collection-055",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "model 2 Novelty Banjo",
@@ -4547,7 +4979,7 @@
       ]
     },
     {
-      "id": "collection-055",
+      "id": "collection-056",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "model 8",
@@ -4567,7 +4999,7 @@
       ]
     },
     {
-      "id": "collection-056",
+      "id": "collection-057",
       "maker": "Daniels",
       "makerSlug": "daniels",
       "title": "model 9 rosewood 6 string",
@@ -4589,7 +5021,7 @@
       ]
     },
     {
-      "id": "collection-057",
+      "id": "collection-058",
       "maker": "Deane",
       "makerSlug": "deane",
       "title": "Model 1",
@@ -4608,7 +5040,7 @@
       ]
     },
     {
-      "id": "collection-058",
+      "id": "collection-059",
       "maker": "Early English maker",
       "makerSlug": "early-english-maker",
       "title": "model 1",
@@ -4626,7 +5058,7 @@
       ]
     },
     {
-      "id": "collection-059",
+      "id": "collection-060",
       "maker": "Essex",
       "makerSlug": "essex",
       "title": "Clipper",
@@ -4645,7 +5077,7 @@
       ]
     },
     {
-      "id": "collection-060",
+      "id": "collection-061",
       "maker": "Essex",
       "makerSlug": "essex",
       "title": "Essex Popular",
@@ -4662,7 +5094,7 @@
       ]
     },
     {
-      "id": "collection-061",
+      "id": "collection-062",
       "maker": "fairbanks",
       "makerSlug": "fairbanks",
       "title": "AC FAIRBANK",
@@ -4681,7 +5113,7 @@
       ]
     },
     {
-      "id": "collection-062",
+      "id": "collection-063",
       "maker": "fairbanks",
       "makerSlug": "fairbanks",
       "title": "fairbanks electric",
@@ -4702,7 +5134,26 @@
       ]
     },
     {
-      "id": "collection-063",
+      "id": "collection-064",
+      "maker": "Fred Langham",
+      "makerSlug": "fred-langham",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 8,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.35.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Fred Langham/model 1/WhatsApp Image 2026-09-24 at 17.12.36.jpeg"
+      ]
+    },
+    {
+      "id": "collection-065",
       "maker": "GHS",
       "makerSlug": "ghs",
       "title": "model 1",
@@ -4721,7 +5172,7 @@
       ]
     },
     {
-      "id": "collection-064",
+      "id": "collection-066",
       "maker": "Henshawlate",
       "makerSlug": "henshawlate",
       "title": "model 1",
@@ -4741,7 +5192,47 @@
       ]
     },
     {
-      "id": "collection-065",
+      "id": "collection-067",
+      "maker": "Hewett Patent",
+      "makerSlug": "hewett-patent",
+      "title": "model1",
+      "slug": "model1",
+      "folder": "model1",
+      "photoCount": 9,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (7).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50 (8).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model1/WhatsApp Image 2026-09-11 at 15.36.50.jpeg"
+      ]
+    },
+    {
+      "id": "collection-068",
+      "maker": "Hewett Patent",
+      "makerSlug": "hewett-patent",
+      "title": "model2",
+      "slug": "model2",
+      "folder": "model2",
+      "photoCount": 9,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (7).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29 (8).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Hewett Patent/model2/WhatsApp Image 2026-09-11 at 15.39.29.jpeg"
+      ]
+    },
+    {
+      "id": "collection-069",
       "maker": "Hewitt",
       "makerSlug": "hewitt",
       "title": "model 1",
@@ -4761,7 +5252,7 @@
       ]
     },
     {
-      "id": "collection-066",
+      "id": "collection-070",
       "maker": "Houghton",
       "makerSlug": "houghton",
       "title": "model 1",
@@ -4780,7 +5271,28 @@
       ]
     },
     {
-      "id": "collection-067",
+      "id": "collection-071",
+      "maker": "J Alvey Turner",
+      "makerSlug": "j-alvey-turner",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 10,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.08.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Alvey Turner/model 1/WhatsApp Image 2026-09-22 at 14.43.09.jpeg"
+      ]
+    },
+    {
+      "id": "collection-072",
       "maker": "J B Schall",
       "makerSlug": "j-b-schall",
       "title": "concert",
@@ -4799,7 +5311,7 @@
       ]
     },
     {
-      "id": "collection-068",
+      "id": "collection-073",
       "maker": "J B Schall",
       "makerSlug": "j-b-schall",
       "title": "nelson",
@@ -4817,7 +5329,26 @@
       ]
     },
     {
-      "id": "collection-069",
+      "id": "collection-074",
+      "maker": "J Dallas",
+      "makerSlug": "j-dallas",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 8,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26 (7).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/J Dallas/model 1/WhatsApp Image 2026-09-11 at 15.45.26.jpeg"
+      ]
+    },
+    {
+      "id": "collection-075",
       "maker": "John Grey&sons",
       "makerSlug": "john-greyandsons",
       "title": "high end",
@@ -4837,7 +5368,7 @@
       ]
     },
     {
-      "id": "collection-070",
+      "id": "collection-076",
       "maker": "Kelly",
       "makerSlug": "kelly",
       "title": "model 1",
@@ -4856,7 +5387,7 @@
       ]
     },
     {
-      "id": "collection-071",
+      "id": "collection-077",
       "maker": "Kemp",
       "makerSlug": "kemp",
       "title": "Model 1",
@@ -4875,7 +5406,7 @@
       ]
     },
     {
-      "id": "collection-072",
+      "id": "collection-078",
       "maker": "KM Singh Sitar",
       "makerSlug": "km-singh-sitar",
       "title": "model 1",
@@ -4897,7 +5428,7 @@
       ]
     },
     {
-      "id": "collection-073",
+      "id": "collection-079",
       "maker": "Lange tripple X",
       "makerSlug": "lange-tripple-x",
       "title": "triplexmodel1",
@@ -4918,7 +5449,47 @@
       ]
     },
     {
-      "id": "collection-074",
+      "id": "collection-080",
+      "maker": "Leon Clerc",
+      "makerSlug": "leon-clerc",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 10,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.18.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Leon Clerc/model 1/WhatsApp Image 2026-09-22 at 14.56.19.jpeg"
+      ]
+    },
+    {
+      "id": "collection-081",
+      "maker": "Lyon&Healy",
+      "makerSlug": "lyonandhealy",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 8,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.07.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Lyon&Healy/model 1/WhatsApp Image 2026-09-24 at 17.03.08.jpeg"
+      ]
+    },
+    {
+      "id": "collection-082",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "1885 5 string",
@@ -4936,7 +5507,7 @@
       ]
     },
     {
-      "id": "collection-075",
+      "id": "collection-083",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Assembly No 88",
@@ -4958,7 +5529,7 @@
       ]
     },
     {
-      "id": "collection-076",
+      "id": "collection-084",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Custom made 1886",
@@ -4976,7 +5547,7 @@
       ]
     },
     {
-      "id": "collection-077",
+      "id": "collection-085",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Engraved metal fretboard",
@@ -5000,7 +5571,7 @@
       ]
     },
     {
-      "id": "collection-078",
+      "id": "collection-086",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Fretless to fret",
@@ -5019,7 +5590,7 @@
       ]
     },
     {
-      "id": "collection-079",
+      "id": "collection-087",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Made for WS Riley",
@@ -5038,7 +5609,7 @@
       ]
     },
     {
-      "id": "collection-080",
+      "id": "collection-088",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "No 814 Dulcet",
@@ -5056,7 +5627,7 @@
       ]
     },
     {
-      "id": "collection-081",
+      "id": "collection-089",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "No 88 Protinus",
@@ -5075,7 +5646,7 @@
       ]
     },
     {
-      "id": "collection-082",
+      "id": "collection-090",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Parlour model No 21",
@@ -5092,7 +5663,7 @@
       ]
     },
     {
-      "id": "collection-083",
+      "id": "collection-091",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Popular model",
@@ -5111,7 +5682,7 @@
       ]
     },
     {
-      "id": "collection-084",
+      "id": "collection-092",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Star _ special tuning pegs",
@@ -5130,7 +5701,7 @@
       ]
     },
     {
-      "id": "collection-085",
+      "id": "collection-093",
       "maker": "Mathews",
       "makerSlug": "mathews",
       "title": "Stork model",
@@ -5148,7 +5719,7 @@
       ]
     },
     {
-      "id": "collection-086",
+      "id": "collection-094",
       "maker": "Miller",
       "makerSlug": "miller",
       "title": "model 1",
@@ -5170,7 +5741,7 @@
       ]
     },
     {
-      "id": "collection-087",
+      "id": "collection-095",
       "maker": "Morris",
       "makerSlug": "morris",
       "title": "model 1",
@@ -5191,7 +5762,7 @@
       ]
     },
     {
-      "id": "collection-088",
+      "id": "collection-096",
       "maker": "Nice",
       "makerSlug": "nice",
       "title": "7 string",
@@ -5211,7 +5782,7 @@
       ]
     },
     {
-      "id": "collection-089",
+      "id": "collection-097",
       "maker": "Nice",
       "makerSlug": "nice",
       "title": "Model 1 1876",
@@ -5234,7 +5805,7 @@
       ]
     },
     {
-      "id": "collection-090",
+      "id": "collection-098",
       "maker": "Nice",
       "makerSlug": "nice",
       "title": "Model 2 5 string 1874",
@@ -5251,7 +5822,7 @@
       ]
     },
     {
-      "id": "collection-091",
+      "id": "collection-099",
       "maker": "Nice",
       "makerSlug": "nice",
       "title": "Model 3 Zither",
@@ -5268,7 +5839,7 @@
       ]
     },
     {
-      "id": "collection-092",
+      "id": "collection-100",
       "maker": "Norton Greenop",
       "makerSlug": "norton-greenop",
       "title": "model 1",
@@ -5285,7 +5856,7 @@
       ]
     },
     {
-      "id": "collection-093",
+      "id": "collection-101",
       "maker": "Not marked",
       "makerSlug": "not-marked",
       "title": "model 1",
@@ -5304,7 +5875,27 @@
       ]
     },
     {
-      "id": "collection-094",
+      "id": "collection-102",
+      "maker": "regal",
+      "makerSlug": "regal",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 9,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.25 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.25.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/regal/model 1/WhatsApp Image 2026-09-22 at 14.53.26.jpeg"
+      ]
+    },
+    {
+      "id": "collection-103",
       "maker": "Salvucci",
       "makerSlug": "salvucci",
       "title": "Model 1",
@@ -5325,7 +5916,7 @@
       ]
     },
     {
-      "id": "collection-095",
+      "id": "collection-104",
       "maker": "Sanders Papworth",
       "makerSlug": "sanders-papworth",
       "title": "Model 1",
@@ -5343,7 +5934,7 @@
       ]
     },
     {
-      "id": "collection-096",
+      "id": "collection-105",
       "maker": "Simpson",
       "makerSlug": "simpson",
       "title": "Austrailian snakewood model",
@@ -5360,7 +5951,7 @@
       ]
     },
     {
-      "id": "collection-097",
+      "id": "collection-106",
       "maker": "Simpson",
       "makerSlug": "simpson",
       "title": "Fretless with scrim ware",
@@ -5379,7 +5970,7 @@
       ]
     },
     {
-      "id": "collection-098",
+      "id": "collection-107",
       "maker": "Simpson",
       "makerSlug": "simpson",
       "title": "Model 4",
@@ -5401,7 +5992,7 @@
       ]
     },
     {
-      "id": "collection-099",
+      "id": "collection-108",
       "maker": "Simpson",
       "makerSlug": "simpson",
       "title": "Model 5",
@@ -5416,7 +6007,7 @@
       ]
     },
     {
-      "id": "collection-100",
+      "id": "collection-109",
       "maker": "Simpson",
       "makerSlug": "simpson",
       "title": "Morris pattern tone ring model",
@@ -5435,7 +6026,7 @@
       ]
     },
     {
-      "id": "collection-101",
+      "id": "collection-110",
       "maker": "Spencer",
       "makerSlug": "spencer",
       "title": "Model 1",
@@ -5453,7 +6044,7 @@
       ]
     },
     {
-      "id": "collection-102",
+      "id": "collection-111",
       "maker": "Spencer",
       "makerSlug": "spencer",
       "title": "Model 2 early 5 sting",
@@ -5475,7 +6066,7 @@
       ]
     },
     {
-      "id": "collection-103",
+      "id": "collection-112",
       "maker": "Spencer",
       "makerSlug": "spencer",
       "title": "Model 3 for Clifford Essex",
@@ -5496,7 +6087,7 @@
       ]
     },
     {
-      "id": "collection-104",
+      "id": "collection-113",
       "maker": "Spratt",
       "makerSlug": "spratt",
       "title": "model 1",
@@ -5515,7 +6106,27 @@
       ]
     },
     {
-      "id": "collection-105",
+      "id": "collection-114",
+      "maker": "star",
+      "makerSlug": "star",
+      "title": "zither",
+      "slug": "zither",
+      "folder": "zither",
+      "photoCount": 9,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (7).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00 (8).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/star/zither/WhatsApp Image 2026-09-24 at 16.57.00.jpeg"
+      ]
+    },
+    {
+      "id": "collection-115",
       "maker": "Stewart",
       "makerSlug": "stewart",
       "title": "2nd Grade 1888",
@@ -5532,7 +6143,7 @@
       ]
     },
     {
-      "id": "collection-106",
+      "id": "collection-116",
       "maker": "Stewart",
       "makerSlug": "stewart",
       "title": "Universal Favourite",
@@ -5552,7 +6163,7 @@
       ]
     },
     {
-      "id": "collection-107",
+      "id": "collection-117",
       "maker": "Super Tone_Sears",
       "makerSlug": "super-tone-sears",
       "title": "model 1",
@@ -5570,7 +6181,7 @@
       ]
     },
     {
-      "id": "collection-108",
+      "id": "collection-118",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 1 5 string 1879",
@@ -5588,7 +6199,7 @@
       ]
     },
     {
-      "id": "collection-109",
+      "id": "collection-119",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 2 patent zither",
@@ -5607,7 +6218,7 @@
       ]
     },
     {
-      "id": "collection-110",
+      "id": "collection-120",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 3 1884",
@@ -5631,7 +6242,7 @@
       ]
     },
     {
-      "id": "collection-111",
+      "id": "collection-121",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 4 Giraffe Neck",
@@ -5653,7 +6264,7 @@
       ]
     },
     {
-      "id": "collection-112",
+      "id": "collection-122",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 5 Fretles early Monarch",
@@ -5675,7 +6286,7 @@
       ]
     },
     {
-      "id": "collection-113",
+      "id": "collection-123",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 6 Angled Engaging Mute",
@@ -5694,7 +6305,7 @@
       ]
     },
     {
-      "id": "collection-114",
+      "id": "collection-124",
       "maker": "Taylor",
       "makerSlug": "taylor",
       "title": "Model 7 1885",
@@ -5712,7 +6323,7 @@
       ]
     },
     {
-      "id": "collection-115",
+      "id": "collection-125",
       "maker": "Temlett",
       "makerSlug": "temlett",
       "title": "5 string",
@@ -5732,7 +6343,7 @@
       ]
     },
     {
-      "id": "collection-116",
+      "id": "collection-126",
       "maker": "Temlett",
       "makerSlug": "temlett",
       "title": "Model 1 Bell Shoe Pot",
@@ -5751,7 +6362,7 @@
       ]
     },
     {
-      "id": "collection-117",
+      "id": "collection-127",
       "maker": "Temlett",
       "makerSlug": "temlett",
       "title": "zither",
@@ -5772,7 +6383,7 @@
       ]
     },
     {
-      "id": "collection-118",
+      "id": "collection-128",
       "maker": "Tilley",
       "makerSlug": "tilley",
       "title": "Model 1 Special",
@@ -5793,7 +6404,7 @@
       ]
     },
     {
-      "id": "collection-119",
+      "id": "collection-129",
       "maker": "Tilley",
       "makerSlug": "tilley",
       "title": "Model 2",
@@ -5811,7 +6422,7 @@
       ]
     },
     {
-      "id": "collection-120",
+      "id": "collection-130",
       "maker": "Tilley",
       "makerSlug": "tilley",
       "title": "Model 3",
@@ -5829,7 +6440,7 @@
       ]
     },
     {
-      "id": "collection-121",
+      "id": "collection-131",
       "maker": "Tonbridgeware",
       "makerSlug": "tonbridgeware",
       "title": "model 1",
@@ -5848,7 +6459,44 @@
       ]
     },
     {
-      "id": "collection-122",
+      "id": "collection-132",
+      "maker": "unknown",
+      "makerSlug": "unknown",
+      "title": "19th cent",
+      "slug": "19th-cent",
+      "folder": "19th cent",
+      "photoCount": 7,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.36.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.37 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/19th cent/WhatsApp Image 2026-09-22 at 14.49.37.jpeg"
+      ]
+    },
+    {
+      "id": "collection-133",
+      "maker": "unknown",
+      "makerSlug": "unknown",
+      "title": "7 string",
+      "slug": "7-string",
+      "folder": "7 string",
+      "photoCount": 8,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.19 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.19.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/unknown/7 string/WhatsApp Image 2026-09-29 at 13.36.20.jpeg"
+      ]
+    },
+    {
+      "id": "collection-134",
       "maker": "unknown",
       "makerSlug": "unknown",
       "title": "americancivilwar",
@@ -5868,7 +6516,7 @@
       ]
     },
     {
-      "id": "collection-123",
+      "id": "collection-135",
       "maker": "vega 5 string",
       "makerSlug": "vega-5-string",
       "title": "vegamodel1",
@@ -5887,7 +6535,41 @@
       ]
     },
     {
-      "id": "collection-124",
+      "id": "collection-136",
+      "maker": "W Temlett",
+      "makerSlug": "w-temlett",
+      "title": "zither",
+      "slug": "zither",
+      "folder": "zither",
+      "photoCount": 6,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither/WhatsApp Image 2026-09-24 at 16.45.00.jpeg"
+      ]
+    },
+    {
+      "id": "collection-137",
+      "maker": "W Temlett",
+      "makerSlug": "w-temlett",
+      "title": "zither2",
+      "slug": "zither2",
+      "folder": "zither2",
+      "photoCount": 6,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/W Temlett/zither2/WhatsApp Image 2026-09-24 at 16.50.34.jpeg"
+      ]
+    },
+    {
+      "id": "collection-138",
       "maker": "Wallis",
       "makerSlug": "wallis",
       "title": "model 1",
@@ -5907,7 +6589,46 @@
       ]
     },
     {
-      "id": "collection-125",
+      "id": "collection-139",
+      "maker": "Wallis",
+      "makerSlug": "wallis",
+      "title": "model 2",
+      "slug": "model-2",
+      "folder": "model 2",
+      "photoCount": 7,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Wallis/model 2/WhatsApp Image 2026-09-29 at 14.29.20.jpeg"
+      ]
+    },
+    {
+      "id": "collection-140",
+      "maker": "Warwick Grover",
+      "makerSlug": "warwick-grover",
+      "title": "model 1",
+      "slug": "model-1",
+      "folder": "model 1",
+      "photoCount": 10,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.11.jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Warwick Grover/model 1/WhatsApp Image 2026-09-29 at 13.28.12.jpeg"
+      ]
+    },
+    {
+      "id": "collection-141",
       "maker": "Wicham C model",
       "makerSlug": "wicham-c-model",
       "title": "model 1",
@@ -5925,7 +6646,7 @@
       ]
     },
     {
-      "id": "collection-126",
+      "id": "collection-142",
       "maker": "Wilks",
       "makerSlug": "wilks",
       "title": "Model 1 1894",
@@ -5944,7 +6665,7 @@
       ]
     },
     {
-      "id": "collection-127",
+      "id": "collection-143",
       "maker": "Wilks",
       "makerSlug": "wilks",
       "title": "Model 2 1900",
@@ -5962,7 +6683,7 @@
       ]
     },
     {
-      "id": "collection-128",
+      "id": "collection-144",
       "maker": "Wilmshurst",
       "makerSlug": "wilmshurst",
       "title": "Model circa 1890",
@@ -5980,7 +6701,7 @@
       ]
     },
     {
-      "id": "collection-129",
+      "id": "collection-145",
       "maker": "Wilmshurst",
       "makerSlug": "wilmshurst",
       "title": "vinerleeds",
@@ -5999,7 +6720,7 @@
       ]
     },
     {
-      "id": "collection-130",
+      "id": "collection-146",
       "maker": "Wilmshurst",
       "makerSlug": "wilmshurst",
       "title": "zither",
@@ -6020,7 +6741,7 @@
       ]
     },
     {
-      "id": "collection-131",
+      "id": "collection-147",
       "maker": "Winder",
       "makerSlug": "winder",
       "title": "Model 1",
@@ -6041,7 +6762,7 @@
       ]
     },
     {
-      "id": "collection-132",
+      "id": "collection-148",
       "maker": "Windsor",
       "makerSlug": "windsor",
       "title": "Artiste Delux Porthole",
@@ -6062,7 +6783,7 @@
       ]
     },
     {
-      "id": "collection-133",
+      "id": "collection-149",
       "maker": "Windsor",
       "makerSlug": "windsor",
       "title": "model 1",
@@ -6080,7 +6801,7 @@
       ]
     },
     {
-      "id": "collection-134",
+      "id": "collection-150",
       "maker": "Windsor",
       "makerSlug": "windsor",
       "title": "Model 2 Windsor_Taylor",
@@ -6098,7 +6819,7 @@
       ]
     },
     {
-      "id": "collection-135",
+      "id": "collection-151",
       "maker": "Windsor",
       "makerSlug": "windsor",
       "title": "Model 3 Scotcher and Jeffrey",
@@ -6116,7 +6837,7 @@
       ]
     },
     {
-      "id": "collection-136",
+      "id": "collection-152",
       "maker": "Windsor",
       "makerSlug": "windsor",
       "title": "Model 4 Sultan no2",
@@ -6134,6 +6855,25 @@
         "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0043.jpg",
         "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0044.jpg",
         "https://images.glensbritishbanjocollection.co.uk/Windsor/Model 4 Sultan no2/IMG-20251220-WA0045.jpg"
+      ]
+    },
+    {
+      "id": "collection-153",
+      "maker": "Windsor",
+      "makerSlug": "windsor",
+      "title": "porthole",
+      "slug": "porthole",
+      "folder": "porthole",
+      "photoCount": 8,
+      "photos": [
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (1).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (2).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (3).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (4).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (5).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (6).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14 (7).jpeg",
+        "https://images.glensbritishbanjocollection.co.uk/Windsor/porthole/WhatsApp Image 2026-09-30 at 13.29.14.jpeg"
       ]
     }
   ]
